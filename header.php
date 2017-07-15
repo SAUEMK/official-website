@@ -54,35 +54,37 @@
                 <div class="placer">
                     <div id="modal" class="center">
                         <div class="title">
-                            <h5>Start a Project</h5>
-                            <span class="promo-heading">Let's discuss your next project.</span>
+                            <h5>GİRİŞ YAP</h5>
+                            <span class="promo-heading">Üyelerimize özel içerikler seni bekliyor</span>
                             <hr>
                         </div>
                         <div class="row">
-                            <div class="col-sm-6 w-section mh"><i class="ion-ios-star-outline"></i>
-                                <h3>Our Service</h3>
-                                <p>Lorem ipsum dolor amet consectetuer adipis.
-                                </p>
+                            <div class="col-md-8 col-md-offset-2">
+                        <form class="contact-form" method="post" action="http://dev.premonday.com/arisn/contact.php">
+                            <div class="input-field col-sm-12">
+                                <div class="form-group">
+                                    <input id="form-name" name="name" type="text" placeholder="Okul numaranız *" required="required"
+                                        data-error="Bu alanın doldurulması zorunludur.">
+                                    <div class="help-block with-errors"></div>
+                                </div>
                             </div>
-                            <div class="col-sm-6 w-section mh"><i class="ion-ios-glasses-outline"></i>
-                                <h3>Our Promise</h3>
-                                <p>Lorem ipsum dolor amet consectetuer adipis.
-                                </p>
+                            <div class="input-field col-sm-12">
+                                <div class="form-group">
+                                    <input id="form-name" name="name" type="password" placeholder="Şifreniz *" required="required"
+                                        data-error="Bu alanın doldurulması zorunludur.">
+                                    <div class="help-block with-errors"></div>
+                                </div>
                             </div>
-                            <div class="col-sm-6 w-section mh"><i class="ion-ios-filing-outline"></i>
-                                <h3>Your Project</h3>
-                                <p>Lorem ipsum dolor amet consectetuer adipis.
-                                </p>
+                            <div class="col-sm-12 center">
+                                <input type="submit" value="Giriş Yap">
+                                <div class="messages"></div>
                             </div>
-                            <div class="col-sm-6 w-section mh"><i class="ion-ios-person-outline"></i>
-                                <h3>Focus on You</h3>
-                                <p>Lorem ipsum dolor amet consectetuer adipis.
-                                </p>
-                            </div>
+                        </form>
+                    </div>
                         </div>
                         <hr>
-                        <a href="#" class="btn"><span>Give us a call</span></a>
-                        <a href="#" class="btn"><span>Contact Page</span></a>
+                        <a href="http://localhost:8080/_sauemk/register-form.php" class="btn"><span>Şimdi üye ol</span></a>
+                        <a href="http://localhost:8080/_sauemk/contact-us.php" class="btn"><span>Şifremi unuttum</span></a>
                     </div>
                 </div>
             </div>
@@ -117,7 +119,7 @@
                                 </li>
                                 <li><a href="#">ETKİNLİKLERİMİZ</a>
                                 </li>
-                                <li><a href="#">EMK BÜLTEN</a>
+                                <li><a href="http://localhost:8080/_sauemk/blog.php">EMK BÜLTEN</a>
                                 </li>
                                 <li><a href="http://localhost:8080/_sauemk/gallery.php">GALERİ</a>
                                 </li>

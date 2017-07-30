@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="vendor/lightbox/lity.min.css">
     <!-- Theme CSS -->
     <link id="theme" rel="stylesheet" href="css/theme01.css">
+    <link id="theme" rel="stylesheet" href="css/profile.css">
     <script src="vendor/modernizr.js"></script>
 </head>
 
@@ -54,37 +55,25 @@
                 <div class="placer">
                     <div id="modal" class="center">
                         <div class="title">
-                            <h5>GİRİŞ YAP</h5>
-                            <span class="promo-heading">Üyelerimize özel içerikler seni bekliyor</span>
+                            <h5>(ÜYENİN ADI)</h5>
+                            <span class="promo-heading">Hoşgeldin 😄 Sana nasıl yardımcı olabiliriz?</span>
                             <hr>
                         </div>
                         <div class="row">
                             <div class="col-md-8 col-md-offset-2">
                         <form class="contact-form" method="post" action="http://dev.premonday.com/arisn/contact.php">
-                            <div class="input-field col-sm-12">
-                                <div class="form-group">
-                                    <input id="form-name" name="name" type="text" placeholder="Okul numaranız *" required="required"
-                                        data-error="Bu alanın doldurulması zorunludur.">
-                                    <div class="help-block with-errors"></div>
-                                </div>
+                            <div class="profile-userpic">
+                                <img src="img/team-pps/erbil.jpg" class="img-responsive" alt=""> 
                             </div>
-                            <div class="input-field col-sm-12">
-                                <div class="form-group">
-                                    <input id="form-name" name="name" type="password" placeholder="Şifreniz *" required="required"
-                                        data-error="Bu alanın doldurulması zorunludur.">
-                                    <div class="help-block with-errors"></div>
-                                </div>
-                            </div>
-                            <div class="col-sm-12 center">
-                                <input type="submit" value="Giriş Yap">
-                                <div class="messages"></div>
-                            </div>
+                            <a href="" class="btn"><span>Profil sayfam</span></a>
+                            <a href="" class="btn"><span>Hesap ayarlarım</span></a>
+                            <a href="" class="btn"><span>Katıldığım etkinlikler</span></a>
+                            <a href="" class="btn"><span>Oda nöbetlerim</span></a>
                         </form>
                     </div>
                         </div>
                         <hr>
-                        <a href="http://localhost:80/_sauemk/register-form.php" class="btn"><span>Şimdi üye ol</span></a>
-                        <a href="http://localhost:80/_sauemk/contact-us.php" class="btn"><span>Şifremi unuttum</span></a>
+                        <a href="" class="btn"><span>Çıkış yap</span></a>
                     </div>
                 </div>
             </div>
@@ -97,7 +86,7 @@
                     <div class="col-md-12">
                         <div class="nav-ui n_">
                             <div>
-                                <a href="#" class="btn hidden-xs start-project"><span>ÜYE GİRİŞİ</span></a>
+                                <a href="#" class="btn hidden-xs start-project"><span>(ÜYENİN ADI)</span></a>
                                 <a href="#" class="search">
                                     <img class="white-icon" src="img/search.svg" alt="">
                                     <img class="dark-icon" src="img/search-dark.svg" alt="">

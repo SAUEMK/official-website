@@ -9,9 +9,27 @@ include 'header.php';
                         <div class="col-md-12">
                             <h1>Changelog</h1>
 
-                            <h5>Sitenin güncel versiyonu: 0.2.0.071517</h5>
+                            <h5>Sitenin güncel versiyonu: 0.3.1.073017</h5>
 
-                            <h3>Versiyon 0.2.0 [güncel]</h3>
+
+                            <h3>Versiyon 0.3.1 [güncel]</h3>
+
+                            <h6>YENİ :: Üye Girişi</h6>
+                            <ul class='list2'>
+                            <li>Üye girişi yapıldığında, giriş yapan kullanıcı için navigasyon menüsü "Üye Girişi" butonu kısmına eklendi.</li>
+
+                            <h2>------------------------------------------</h2>
+
+                            <h3>Versiyon 0.3.0 - 26 Temmuz 2017</h3>
+
+                            <h6>YENİ :: Etkinliklerimiz</h6>
+                            <ul class='list2'>
+                            <li>Etkinliklerimiz sayfası siteye eklendi.</li>
+
+
+                            <h5>-----------------------------------------------------------------------------------</h5>
+
+                            <h3>Versiyon 0.2.0 - 18 Temmuz 2017</h3>
 
                             <h6>YENİ :: EMK Bülten</h6>
                             <ul class='list2'>
@@ -29,36 +47,7 @@ include 'header.php';
                             <ul class='list2'>
                             <li>Sorunlu sponsor logoları kaldırıldı.</li>
 
-                            <h2>------------------------------------------</h2>
-
-                            <h3>Versiyon 0.2.1 [alpha]</h3>
-                            
-                            <h6>YENİ :: Etkinliklerimiz</h6>
-                            <ul class='list2'>
-                            <li>Tasarımı ve içeriğiyle yeni bir etkinlikler sayfası oluşturulacak.</li>
-
-                            <h6>Tasarım :: Blog Post</h6>
-                            <ul class='list2'>
-                            <li>Yorum içinde yorum yapma özelliğine yeni bir form eklenecek.</li>
-
-                            <h6>Tasarım :: İletişim</h6>
-                            <ul class='list2'>
-                            <li>Sayfanın alt kısmına bir adet FAQ kısmı eklenecek.</li>
-
-                            <h6>Tasarım :: Ana Sayfa</h6>
-                            <ul class='list2'>
-                            <li>Etkinliklerimiz kısmına seçilen etkinlik ile ilgili yazılar bulunan bölüm eklenecek.</li>
-                            <li>Etkinliklerimiz kısmının yanlarına yeni navigasyon okları eklenecek.</li>
-                            <li>Carousel'in arkaplanına daha çok fotoğraf eklenerek sıralı olarak gösterilmesi sağlanacak.</li>
-                            <li>Testimonials kısmına ziyaretçierin yorum ekleyebilmesi için buton eklenecek.</li>
-                            <li>Arama butonunda değişikliğe gidilecek.</li>
-                            <li>Ana sayfanın içinde gezinmeyi kolaylaştırmak için side navbar eklenecek.</li>
-
-                            <h6>Tasarım :: Header</h6>
-                            <ul class='list2'>
-                            <li>Sosyal medya hesaplarına ait ikonların gösterildiği bir alan header kısmına eklenecek.</li>
-
-                            <h2>------------------------------------------</h2>
+                            <h5>-----------------------------------------------------------------------------------</h5>
 
                             <h3>Versiyon 0.1.1 - 05 Temmuz 2017</h3>
 

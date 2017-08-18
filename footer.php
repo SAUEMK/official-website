@@ -33,7 +33,7 @@
                         <hr>
                         <p class="footer-text">2017 &copy; Sakarya Üniversite Endüstri Mühendisliği Kulübü. <br>Bu sitenin geliştirilmesi Bilişim & Medya Komisyonu tarafından yapılmıştır. Bütün hakları saklıdır. 
                         <br>Sitenin güncel versiyonu: 0.3.1.073017<br>
-                        <a href="http://localhost:80/_sauemk/changelog.php">Changelog</a><a href="http://localhost:80/_sauemk/terms.php">Terms and Conditions</a><a href="http://localhost:80/_sauemk/policy.php">Cookie Policy</a></p>
+                        <a href="http://localhost/_sauemk/changelog.php">Changelog</a><a href="http://localhost/_sauemk/terms.php">Terms and Conditions</a><a href="http://localhost/_sauemk/policy.php">Cookie Policy</a></p>
                     </div>
                 </div>
             </div>

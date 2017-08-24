@@ -9,16 +9,27 @@ include 'header.php';
                         <div class="col-md-12">
                             <h1>Changelog</h1>
 
-                            <h5>Sitenin güncel versiyonu: 0.3.1.073017</h5>
+                            <h5>Sitenin güncel versiyonu: 0.3.3.081917</h5>
 
+                            <h3>Versiyon 0.3.3 [güncel]</h3>
 
-                            <h3>Versiyon 0.3.1 [güncel]</h3>
+                            <h6>Tasarım :: Galeri</h6>
+                            <ul class='list2'>
+                            <li>Artık tüm fotoğrafların olduğu kısımda albümlerin tümü gösteriliyor. İstediğiniz albümü seçip ilgili sayfaya gidebiliyorsunuz.</li>
+
+                            <h6>YENİ :: Sıkça Sorulan Sorular</h6>
+                            <ul class='list2'>
+                            <li>İletişim sayfasının en alt kısmında kulüple ilgili en çok merak edilen soruları bulabilirsiniz.</li>
+
+                            <h2>------------------------------------------</h2>
+
+                            <h3>Versiyon 0.3.1 - 30 Temmuz 2017</h3>
 
                             <h6>YENİ :: Üye Girişi</h6>
                             <ul class='list2'>
                             <li>Üye girişi yapıldığında, giriş yapan kullanıcı için navigasyon menüsü "Üye Girişi" butonu kısmına eklendi.</li>
 
-                            <h2>------------------------------------------</h2>
+                            <h5>-----------------------------------------------------------------------------------</h5>
 
                             <h3>Versiyon 0.3.0 - 26 Temmuz 2017</h3>
 

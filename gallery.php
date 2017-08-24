@@ -56,151 +56,81 @@ include 'header.php';
         </section>
 
 <!-- Tabs -->
-        <section>
+<section>
             <div class="container">
-                <div class="row m-space">
-                    <div class="col col-md-6 col-md-offset-3 title">
-                        <h2>Tüm fotoğraflar</h2>
-                        <h4>Tek bir galeri, bütün resimler</h4>
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 title">
+                        <h2>Tüm Fotoğraflar</h2>
+                        <h4>Tek galeri, bütün arşiv</h4>
                     </div>
-                    <div class="col-md-12">
-                        <div class='tabs tabs_default'>
-                            <ul class='horizontal'>
-                                <li><a href="#tab-1">16. EMG YARININ SINIRINDA</a></li>
-                                <li><a href="#tab-2">Albüm ismi</a></li>
-                                <li><a href="#tab-3">Albüm ismi</a></li>
-                            </ul>
-                            <div id='tab-1'><span>       
-                                    <section class="no-pad">
-                                        <div class="container-fluid no-max no-pad">
-                                            <div class="row">
+                </div>
+                <div class="row m-space portfolio list">
 
-                                                <!-- Masonry -->
-                                                <div class="masonry three-col no-margin">
-                                                    <div class="grid-sizer"></div>
-                                                    <div class="grid-item">
-                                                        <a href="img/gallery/16.emg/01.jpg" data-lity><img src="img/gallery/16.emg/01.jpg" alt="">
-                                                            <div class="project-info">
-                                                                <h2>Resmin ismi</h2>
-                                                                <p>Konuşmacı</p>
-                                                                <ul class="tags">
-                                                                    <li>Tag 1</li>
-                                                                    <li>Tag 2</li>
-                                                                    <li>Tag 3</li>
-                                                                </ul>
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                    <!-- end of item -->
-                                                    <div class="grid-item">
-                                                        <a href="img/gallery/16.emg/02.jpg" data-lity><img src="img/gallery/16.emg/02.jpg" alt="">
-                                                            <div class="project-info">
-                                                                <h2>Resmin ismi</h2>
-                                                                <p>Konuşmacı</p>
-                                                                <ul class="tags">
-                                                                    <li>Tag 1</li>
-                                                                    <li>Tag 2</li>
-                                                                    <li>Tag 3</li>
-                                                                </ul>
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                    <!-- end of item -->
-                                                    <div class="grid-item">
-                                                        <a href="img/gallery/16.emg/03.jpg" data-lity><img src="img/gallery/16.emg/03.jpg" alt="">
-                                                            <div class="project-info">
-                                                                <h2>Resmin ismi</h2>
-                                                                <p>Konuşmacı</p>
-                                                                <ul class="tags">
-                                                                    <li>Tag 1</li>
-                                                                    <li>Tag 2</li>
-                                                                    <li>Tag 3</li>
-                                                                </ul>
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                    <!-- end of item -->
-                                                    <div class="grid-item">
-                                                        <a href="img/gallery/16.emg/04.jpg" data-lity><img src="img/gallery/16.emg/04.jpg" alt="">
-                                                            <div class="project-info">
-                                                                <h2>Resmin ismi</h2>
-                                                                <p>Konuşmacı</p>
-                                                                <ul class="tags">
-                                                                    <li>Tag 1</li>
-                                                                    <li>Tag 2</li>
-                                                                    <li>Tag 3</li>
-                                                                </ul>
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                    <!-- end of item -->
-                                                    <div class="grid-item">
-                                                        <a href="img/gallery/16.emg/05.jpg" data-lity><img src="img/gallery/16.emg/05.jpg" alt="">
-                                                            <div class="project-info">
-                                                                <h2>Resmin ismi</h2>
-                                                                <p>Konuşmacı</p>
-                                                                <ul class="tags">
-                                                                    <li>Tag 1</li>
-                                                                    <li>Tag 2</li>
-                                                                    <li>Tag 3</li>
-                                                                </ul>
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                    <!-- end of item -->
-                                                    <div class="grid-item">
-                                                        <a href="img/gallery/16.emg/06.jpg" data-lity><img src="img/gallery/16.emg/06.jpg" alt="">
-                                                            <div class="project-info">
-                                                                <h2>Resmin ismi</h2>
-                                                                <p>Konuşmacı</p>
-                                                                <ul class="tags">
-                                                                    <li>Tag 1</li>
-                                                                    <li>Tag 2</li>
-                                                                    <li>Tag 3</li>
-                                                                </ul>
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                    <!-- end of item -->
-                                                    <div class="grid-item">
-                                                        <a href="img/gallery/16.emg/07.jpg" data-lity><img src="img/gallery/16.emg/07.jpg" alt="">
-                                                            <div class="project-info">
-                                                                <h2>Resmin ismi</h2>
-                                                                <p>Konuşmacı</p>
-                                                                <ul class="tags">
-                                                                    <li>Tag 1</li>
-                                                                    <li>Tag 2</li>
-                                                                    <li>Tag 3</li>
-                                                                </ul>
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                    <!-- end of item -->
-                                                    <div class="grid-item">
-                                                        <a href="img/gallery/16.emg/08.jpg" data-lity><img src="img/gallery/16.emg/08.jpg" alt="">
-                                                            <div class="project-info">
-                                                                <h2>Resmin ismi</h2>
-                                                                <p>Konuşmacı</p>
-                                                                <ul class="tags">
-                                                                    <li>Tag 1</li>
-                                                                    <li>Tag 2</li>
-                                                                    <li>Tag 3</li>
-                                                                </ul>
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                    <!-- end of item -->
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </section>
-                                
-                                
-                                </span></div>
-                            <div id='tab-2'><span>Fotoğraflar</span></div>
-                            <div id='tab-3'><span>Fotoğraflar</span></div>
-                        </div>
+                    <div class="col-md-3 col-xs-6 mh">
+                        <a href="photos.php">
+                            <div class="project-image">
+                                <img src="img/gallery/16.emg/05.jpg" alt="">
+                            </div>
+                            <div class="project-info">
+                                <h5>22.02.2017</h5>
+                                <h3>16. EMG</h3>
+                                <ul class="tags">
+                                    <li>EMG</li>
+                                </ul>
+                            </div>
+                        </a>
                     </div>
+                    <!-- end of item -->
+
+                    <div class="col-md-3 col-xs-6 mh">
+                        <a href="#">
+                            <div class="project-image">
+                                <img src="img/gallery/16.emg/05.jpg" alt="">
+                            </div>
+                            <div class="project-info">
+                                <h5>14.03.2017</h5>
+                                <h3>Deneyimli Endüstri Mühendisliği Günleri</h3>
+                                <ul class="tags">
+                                    <li>Endüstri Mühendisleri</li>
+                                    <li>Mezun</li>
+                                </ul>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- end of item -->
+
+                    <div class="col-md-3 col-xs-6 mh">
+                        <a href="#">
+                            <div class="project-image">
+                                <img src="img/gallery/16.emg/05.jpg" alt="">
+                            </div>
+                            <div class="project-info">
+                                <h5>15.04.2017</h5>
+                                <h3>Vaka Analizi</h3>
+                                <ul class="tags">
+                                    <li>Yarışma</li>
+                                </ul>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- end of item -->
+
+                    <div class="col-md-3 col-xs-6 mh">
+                        <a href="#">
+                            <div class="project-image">
+                                <img src="img/gallery/16.emg/05.jpg" alt="">
+                            </div>
+                            <div class="project-info">
+                                <h5>07.02.2018</h5>
+                                <h3>Microsoft Teknik Gezisi</h3>
+                                <ul class="tags">
+                                    <li>Teknik Gezi</li>
+                                </ul>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- end of item -->
+
                 </div>
             </div>
         </section>

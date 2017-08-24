@@ -71,8 +71,8 @@ include 'header.php';
                             <div class="team-pic" style="background-image:url(img/team-pps/erbil04.jpg)">
                             </div>
                            <div class="name center">
-                                <p>Pozisyon</p>
-                                <h3>İsim Soyisim</h3>
+                                <p>Eğitim Komisyonu Başkanı</p>
+                                <h3>Ceyda Babadostu</h3>
                                 <h9>E-posta adresi</h6>
                                 <div class="social">
                                     <a href="#"><i class="ion-social-facebook"></i></a>

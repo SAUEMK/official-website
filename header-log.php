@@ -55,7 +55,7 @@
                 <div class="placer">
                     <div id="modal" class="center">
                         <div class="title">
-                            <h5>(ÜYENİN ADI)</h5>
+                            <h5>(ÜYENİN ADI)</h5> <!--isimlerin yanına rastgele emoji eklenecek-->
                             <span class="promo-heading">Hoşgeldin 😄 Sana nasıl yardımcı olabiliriz?</span>
                             <hr>
                         </div>
@@ -67,8 +67,6 @@
                             </div>
                             <a href="" class="btn"><span>Profil sayfam</span></a>
                             <a href="" class="btn"><span>Hesap ayarlarım</span></a>
-                            <a href="" class="btn"><span>Katıldığım etkinlikler</span></a>
-                            <a href="" class="btn"><span>Oda nöbetlerim</span></a>
                         </form>
                     </div>
                         </div>
@@ -96,7 +94,7 @@
                         </div>
                         <div class="logo-holder n_">
                             <div>
-                                <a href="http://localhost:80/_sauemk/home-page.php">
+                                <a href="http://localhost:8080/_sauemk/home-page.php">
                                     <img class="logo" src="img/logos/emk-logo.png" alt="">
                                     <img class="logo alt" src="img/logos/emk-logo.png" alt="">
                                 </a>
@@ -104,17 +102,17 @@
                         </div>
                         <div class="nav-content n_">
                             <ul class="light-dropdown">
-                                <li><a href="http://localhost:80/_sauemk/home-page.php">ANA SAYFA</a>
+                                <li><a href="http://localhost:8080/_sauemk/home-page.php">ANA SAYFA</a>
                                 </li>
-                                <li><a href="http://localhost:80/_sauemk/events.php">ETKİNLİKLERİMİZ</a>
+                                <li><a href="http://localhost:8080/_sauemk/events.php">ETKİNLİKLERİMİZ</a>
                                 </li>
-                                <li><a href="http://localhost:80/_sauemk/blog.php">EMK BÜLTEN</a>
+                                <li><a href="http://localhost:8080/_sauemk/blog.php">EMK BÜLTEN</a>
                                 </li>
-                                <li><a href="http://localhost:80/_sauemk/gallery.php">GALERİ</a>
+                                <li><a href="http://localhost:8080/_sauemk/gallery.php">GALERİ</a>
                                 </li>
-                                <li><a href="http://localhost:80/_sauemk/about-page.php">HAKKIMIZDA</a>
+                                <li><a href="http://localhost:8080/_sauemk/about-page.php">HAKKIMIZDA</a>
                                 </li>
-                                <li><a href="http://localhost:80/_sauemk/contact-us.php">İLETİŞİM</a>
+                                <li><a href="http://localhost:8080/_sauemk/contact-us.php">İLETİŞİM</a>
                                 </li>
                             </ul>
                         </div>

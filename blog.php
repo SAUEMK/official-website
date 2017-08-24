@@ -13,13 +13,13 @@ include 'header.php';
 
                             <div class="blog-item">
                             <div class="thumb1">
-                                <a href="http://localhost:80/_sauemk/blog-post.php">
+                                <a href="http://localhost:8080/_sauemk/blog-post.php">
                                     <img src="img/gallery/16.emg/01.jpg" alt="">
                                 </a>
                             </div>
                             <div class="article">
                                 <span class="tag">Design</span>
-                                <a href="http://localhost:80/_sauemk/blog-post.php">
+                                <a href="http://localhost:8080/_sauemk/blog-post.php">
                                     <p>24.09.16</p>
                                     <h3>UX Design Logistics</h3>
                                 </a>
@@ -34,13 +34,13 @@ include 'header.php';
 
                         <div class="blog-item">
                             <div class="thumb1">
-                                <a href="http://localhost:80/_sauemk/blog-post.php">
+                                <a href="http://localhost:8080/_sauemk/blog-post.php">
                                     <img src="img/gallery/16.emg/02.jpg" alt="">
                                 </a>
                             </div>
                             <div class="article">
                                 <span class="tag">Application</span>
-                                <a href="http://localhost:80/_sauemk/blog-post.php">
+                                <a href="http://localhost:8080/_sauemk/blog-post.php">
                                     <p>24.09.16</p>
                                     <h3>The Real Victims</h3>
                                 </a>
@@ -55,13 +55,13 @@ include 'header.php';
 
                         <div class="blog-item">
                             <div class="thumb1">
-                               <a href="http://localhost:80/_sauemk/blog-post.php">
+                               <a href="http://localhost:8080/_sauemk/blog-post.php">
                                     <img src="img/gallery/16.emg/03.jpg" alt="">
                                 </a>
                             </div>
                             <div class="article">
                                 <span class="tag">Lifestyle</span>
-                                <a href="http://localhost:80/_sauemk/blog-post.php">
+                                <a href="http://localhost:8080/_sauemk/blog-post.php">
                                     <p>24.09.16</p>
                                     <h3>What is under oath?</h3>
                                 </a>
@@ -76,13 +76,13 @@ include 'header.php';
 
                         <div class="blog-item">
                             <div class="thumb1">
-                                <a href="http://localhost:80/_sauemk/blog-post.php">
+                                <a href="http://localhost:8080/_sauemk/blog-post.php">
                                     <img src="img/gallery/16.emg/01.jpg" alt="">
                                 </a>
                             </div>
                             <div class="article">
                                 <span class="tag">Design</span>
-                                <a href="http://localhost:80/_sauemk/blog-post.php">
+                                <a href="http://localhost:8080/_sauemk/blog-post.php">
                                     <p>24.09.16</p>
                                     <h3>UX Design Logistics</h3>
                                 </a>
@@ -97,13 +97,13 @@ include 'header.php';
 
                         <div class="blog-item">
                             <div class="thumb1">
-                                <a href="http://localhost:80/_sauemk/blog-post.php">
+                                <a href="http://localhost:8080/_sauemk/blog-post.php">
                                     <img src="img/gallery/16.emg/05.jpg" alt="">
                                 </a>
                             </div>
                             <div class="article">
                                 <span class="tag">Application</span>
-                                <a href="http://localhost:80/_sauemk/blog-post.php">
+                                <a href="http://localhost:8080/_sauemk/blog-post.php">
                                     <p>24.09.16</p>
                                     <h3>The Real Victims</h3>
                                 </a>
@@ -344,14 +344,14 @@ include 'header.php';
                             <h3>Kategoriler</h3>
                             <hr>
                             <ul class="list">
-                                <li><a href="http://localhost:80/_sauemk/blog-cat.php">UX Design</a></li>
-                                <li><a href="http://localhost:80/_sauemk/blog-cat.php">Development</a></li>
-                                <li><a href="http://localhost:80/_sauemk/blog-cat.php#">Lifestyle</a></li>
-                                <li><a href="http://localhost:80/_sauemk/blog-cat.php#">Gadgets</a></li>
-                                <li><a href="http://localhost:80/_sauemk/blog-cat.php#">Office Wear</a></li>
-                                <li><a href="http://localhost:80/_sauemk/blog-cat.php#">Coder Apparel</a></li>
-                                <li><a href="http://localhost:80/_sauemk/blog-cat.php#">SEO</a></li>
-                                <li><a href="http://localhost:80/_sauemk/blog-cat.php#">Marketing</a></li>
+                                <li><a href="http://localhost:8080/_sauemk/blog-cat.php">UX Design</a></li>
+                                <li><a href="http://localhost:8080/_sauemk/blog-cat.php">Development</a></li>
+                                <li><a href="http://localhost:8080/_sauemk/blog-cat.php#">Lifestyle</a></li>
+                                <li><a href="http://localhost:8080/_sauemk/blog-cat.php#">Gadgets</a></li>
+                                <li><a href="http://localhost:8080/_sauemk/blog-cat.php#">Office Wear</a></li>
+                                <li><a href="http://localhost:8080/_sauemk/blog-cat.php#">Coder Apparel</a></li>
+                                <li><a href="http://localhost:8080/_sauemk/blog-cat.php#">SEO</a></li>
+                                <li><a href="http://localhost:8080/_sauemk/blog-cat.php#">Marketing</a></li>
                             </ul>
                         </div>
                         <div class="item">

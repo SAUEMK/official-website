@@ -76,6 +76,161 @@ include 'header.php';
             </div>
         </div>
 
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 title">
+                        <h2>Sıkça Sorulan Sorular</h2>
+                        <h4>Aklınızda soru kalmasın</h4>
+                    </div>
+                </div>
+                <div class="row m-space">
+                    <div class="col-md-6">
+                        <h3>General FAQ</h3>
+                        <div class="accordion">
+                            <li>Q. How can I profit from Themeforest?
+                                <ul>
+                                    <h3>That's easy, we do it for you!</h3>
+                                    <p>Vivamus facilisisnibh scelerisque laoreet. Lorem
+                                        ipsum dolor sit amet, consectetur adipisicing
+                                        elit. Aspernatur vel distinctio minima ipsa
+                                        nostrum quis sequi.</p>
+                                    <a href="#" class="btn"><span>More information</span></a>
+                                </ul>
+                            </li>
+
+                            <li>Q. What am I entitled to use on a daily basis?
+                                <ul>
+                                    <h3>Food, drink and other supplies...</h3>
+                                    <p>Vivamus facilisisnibh scelerisque laoreet. Lorem
+                                        ipsum dolor sit amet, consectetur adipisicing
+                                        elit. Aspernatur vel distinctio minima ipsa
+                                        nostrum quis sequi.</p>
+                                </ul>
+                            </li>
+
+                            <li>Q. I want to partner with another author, how?
+                                <ul>
+                                    <h3>You'll need this...</h3>
+                                    <p>Vivamus facilisisnibh scelerisque laoreet. Lorem
+                                        ipsum dolor sit amet, consectetur adipisicing
+                                        elit. Aspernatur vel distinctio minima ipsa
+                                        nostrum quis sequi.</p>
+                                    <a href="#" class="btn"><span>More information</span></a>
+                                </ul>
+                            </li>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h3>Service Related</h3>
+                        <div class="accordion">
+                            <li>Q. Can we supply our own medication?
+                                <ul>
+                                    <h3>Food, drink and other supplies...</h3>
+                                    <p>Vivamus facilisisnibh scelerisque laoreet. Lorem
+                                        ipsum dolor sit amet, consectetur adipisicing
+                                        elit. Aspernatur vel distinctio minima ipsa
+                                        nostrum quis sequi.</p>
+                                </ul>
+                            </li>
+
+                            <li>Q. When do we get to eat dinner?
+                                <ul>
+                                    <h3>You'll need this...</h3>
+                                    <p>Vivamus facilisisnibh scelerisque laoreet. Lorem
+                                        ipsum dolor sit amet, consectetur adipisicing
+                                        elit. Aspernatur vel distinctio minima ipsa
+                                        nostrum quis sequi.</p>
+                                    <a href="#" class="btn"><span>More information</span></a>
+                                </ul>
+                            </li>
+                            <li>Q. How can I profit from Themeforest?
+                                <ul>
+                                    <h3>That's easy, we do it for you!</h3>
+                                    <p>Vivamus facilisisnibh scelerisque laoreet. Lorem
+                                        ipsum dolor sit amet, consectetur adipisicing
+                                        elit. Aspernatur vel distinctio minima ipsa
+                                        nostrum quis sequi.</p>
+                                    <a href="#" class="btn"><span>More information</span></a>
+                                </ul>
+                            </li>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h3>Theme Related</h3>
+                        <div class="accordion">
+                            <li>Q. How can I profit from Themeforest?
+                                <ul>
+                                    <h3>That's easy, we do it for you!</h3>
+                                    <p>Vivamus facilisisnibh scelerisque laoreet. Lorem
+                                        ipsum dolor sit amet, consectetur adipisicing
+                                        elit. Aspernatur vel distinctio minima ipsa
+                                        nostrum quis sequi.</p>
+                                    <a href="#" class="btn"><span>More information</span></a>
+                                </ul>
+                            </li>
+
+                            <li>Q. What am I entitled to use on a daily basis?
+                                <ul>
+                                    <h3>Food, drink and other supplies...</h3>
+                                    <p>Vivamus facilisisnibh scelerisque laoreet. Lorem
+                                        ipsum dolor sit amet, consectetur adipisicing
+                                        elit. Aspernatur vel distinctio minima ipsa
+                                        nostrum quis sequi.</p>
+                                </ul>
+                            </li>
+
+                            <li>Q. I want to partner with another author, how?
+                                <ul>
+                                    <h3>You'll need this...</h3>
+                                    <p>Vivamus facilisisnibh scelerisque laoreet. Lorem
+                                        ipsum dolor sit amet, consectetur adipisicing
+                                        elit. Aspernatur vel distinctio minima ipsa
+                                        nostrum quis sequi.</p>
+                                    <a href="#" class="btn"><span>More information</span></a>
+                                </ul>
+                            </li>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h3>Contact Options</h3>
+                        <div class="accordion">
+                            <li>Q. Can we supply our own medication?
+                                <ul>
+                                    <h3>Food, drink and other supplies...</h3>
+                                    <p>Vivamus facilisisnibh scelerisque laoreet. Lorem
+                                        ipsum dolor sit amet, consectetur adipisicing
+                                        elit. Aspernatur vel distinctio minima ipsa
+                                        nostrum quis sequi.</p>
+                                </ul>
+                            </li>
+
+                            <li>Q. When do we get to eat dinner?
+                                <ul>
+                                    <h3>You'll need this...</h3>
+                                    <p>Vivamus facilisisnibh scelerisque laoreet. Lorem
+                                        ipsum dolor sit amet, consectetur adipisicing
+                                        elit. Aspernatur vel distinctio minima ipsa
+                                        nostrum quis sequi.</p>
+                                    <a href="#" class="btn"><span>More information</span></a>
+                                </ul>
+                            </li>
+                            <li>Q. How can I profit from Themeforest?
+                                <ul>
+                                    <h3>That's easy, we do it for you!</h3>
+                                    <p>Vivamus facilisisnibh scelerisque laoreet. Lorem
+                                        ipsum dolor sit amet, consectetur adipisicing
+                                        elit. Aspernatur vel distinctio minima ipsa
+                                        nostrum quis sequi.</p>
+                                    <a href="#" class="btn"><span>More information</span></a>
+                                </ul>
+                            </li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
 <?php
 include 'footer.php';
 ?>

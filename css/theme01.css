@@ -3505,6 +3505,7 @@ header#sp3.primary a:hover {
   transition: all 400ms cubic-bezier(0.694, 0.0482, 0.335, 1);
   cursor: pointer;
 }
+
 .scrollup.vis {
   visibility: visible;
   transform: translateY(0) scale(1);

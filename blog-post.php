@@ -229,54 +229,47 @@ include 'header.php';
                                 exercitationem laboriosam excepturi nesciunt, facere
                                 voluptatem illum eos iste totam maxime illo ducimus
                                 neque minus.</p>
-                            <a class="reply" href="#"><i class="ion-ios-undo"></i></a>
                         </div>
-                        <ul class="children">
-                            <li>
-                                <div class="comment">
-                                    <img src="img/team/p2.jpg" alt="">
-                                    <h4>Person Name</h4>
-                                    <p class="date-posted">24 Sep 2016</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing
-                                        elit. Id tempore nostrum eveniet dolore doloribus
-                                        temporibus exercitationem laboriosam excepturi
-                                        nesciunt, facere voluptatem illum eos iste
-                                        totam maxime illo ducimus neque minus.</p>
-                                    <a class="reply" href="#"><i class="ion-ios-undo"></i></a>
-                                </div>
-                                <ul class="children">
-                                    <li>
-                                        <div class="comment">
-                                            <img src="img/team/p3.jpg" alt="">
-                                            <h4>Person Name</h4>
-                                            <p class="date-posted">24 Sep 2016</p>
-                                            <p>Lorem ipsum dolor sit amet, consectetur
-                                                adipisicing elit. Id tempore nostrum
-                                                eveniet dolore doloribus.</p>
-                                            <a class="reply" href="#"><i class="ion-ios-undo"></i></a>
-                                        </div>
-                                        <div class="comment">
-                                            <img src="img/team/p4.jpg" alt="">
-                                            <h4>Person Name</h4>
-                                            <p class="date-posted">24 Sep 2016</p>
-                                            <p>Lorem ipsum dolor sit amet, consectetur
-                                                adipisicing elit. Id tempore nostrum
-                                                eveniet dolore doloribus.</p>
-                                            <a class="reply" href="#"><i class="ion-ios-undo"></i></a>
-                                        </div>
-                                        <div class="comment">
-                                            <img src="img/team/p1.jpg" alt="">
-                                            <h4>Person Name</h4>
-                                            <p class="date-posted">24 Sep 2016</p>
-                                            <p>Lorem ipsum dolor sit amet, consectetur
-                                                adipisicing elit. Id tempore nostrum
-                                                eveniet dolore doloribus.</p>
-                                            <a class="reply" href="#"><i class="ion-ios-undo"></i></a>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
+                        <div class="comment">
+                            <img src="img/team/p1.jpg" alt="">
+                            <h4>Person Name</h4>
+                            <p class="date-posted">24 Sep 2016</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Id tempore nostrum eveniet dolore doloribus temporibus
+                                exercitationem laboriosam excepturi nesciunt, facere
+                                voluptatem illum eos iste totam maxime illo ducimus
+                                neque minus.</p>
+                        </div>
+                        <div class="comment">
+                            <img src="img/team/p1.jpg" alt="">
+                            <h4>Person Name</h4>
+                            <p class="date-posted">24 Sep 2016</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Id tempore nostrum eveniet dolore doloribus temporibus
+                                exercitationem laboriosam excepturi nesciunt, facere
+                                voluptatem illum eos iste totam maxime illo ducimus
+                                neque minus.</p>
+                        </div>
+                        <div class="comment">
+                            <img src="img/team/p1.jpg" alt="">
+                            <h4>Person Name</h4>
+                            <p class="date-posted">24 Sep 2016</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Id tempore nostrum eveniet dolore doloribus temporibus
+                                exercitationem laboriosam excepturi nesciunt, facere
+                                voluptatem illum eos iste totam maxime illo ducimus
+                                neque minus.</p>
+                        </div>
+                        <div class="comment">
+                            <img src="img/team/p1.jpg" alt="">
+                            <h4>Person Name</h4>
+                            <p class="date-posted">24 Sep 2016</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Id tempore nostrum eveniet dolore doloribus temporibus
+                                exercitationem laboriosam excepturi nesciunt, facere
+                                voluptatem illum eos iste totam maxime illo ducimus
+                                neque minus.</p>
+                        </div>
                     </div>
                 </div>
             </div>

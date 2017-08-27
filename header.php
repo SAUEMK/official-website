@@ -7,10 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>SAÜEMK</title>
     <meta name="keywords" content="HTML5 Template" />
-    <meta name="description" content="Arisn - Multi Purpose HTML5 Template">
+    <meta name="description" content="">
     <meta name="author" content="premonday.com">
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Lato:400,400i|Poppins:300,400,500,600" rel="stylesheet">
+    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
     <!-- Favicon -->
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
@@ -38,7 +39,8 @@
     <div class="web-in">
 
         <!-- Search Modal -->
-        <div id="search-modal">
+        <!--
+            <div id="search-modal">
             <img src="img/exit.svg" class="exit" alt="">
             <form class="search-form" action="http://dev.premonday.com/arisn/post">
                 <label>Bi' şey mi aramıştınız? Hemen sizlere yardımcı olayım :)</label>
@@ -46,6 +48,7 @@
                 <span>Arama yapabilmek için <b class="primary">ENTER</b> tuşuna basınız.</span>
             </form>
         </div>
+        -->
 
         <!-- Start Project Modal -->
         <div id="modal-bg">
@@ -98,10 +101,6 @@
                         <div class="nav-ui n_">
                             <div>
                                 <a href="#" class="btn hidden-xs start-project"><span>ÜYE GİRİŞİ</span></a>
-                                <a href="#" class="search">
-                                    <img class="white-icon" src="img/search.svg" alt="">
-                                    <img class="dark-icon" src="img/search-dark.svg" alt="">
-                                </a>
                                 <div id="menu-icon"><span></span></div>
                             </div>
                         </div>

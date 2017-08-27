@@ -370,7 +370,7 @@ include 'header-log.php';
                                 </div>
                             </div>
                             <div class="col-sm-12 center">
-                                <input type="submit" value="Gönder">
+                                <input type="submit" value="GÖNDER">
                                 <div class="messages"></div>
                             </div>
                         </form>

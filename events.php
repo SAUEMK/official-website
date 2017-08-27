@@ -105,6 +105,7 @@ include 'header.php';
                                     convallis.
                                 </p>
                             </div>
+                            <a href="#" class="btn"><span>Katılmak istiyorum</span></a>
                         </div>
                     </div>
                 </div>

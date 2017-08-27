@@ -28,6 +28,7 @@
                             <a href="#"><i class="ion-social-googleplus"></i></a>
                             <a href="#"><i class="ion-social-snapchat"></i></a>
                             <a href="#"><i class="ion-social-youtube"></i></a>
+                            <a href="play/game.html"><i class="ion-ios-game-controller-b"></i></a>
                             
                         </div>
                         <hr>

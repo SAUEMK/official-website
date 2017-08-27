@@ -292,6 +292,27 @@ include 'header.php';
             </div>
         </section>
 
+         <!-- Testimonials -->
+         <section id="c_testimonials" class="center parallax-container dark" data-overlay="8">
+        <div class="parallax"><img src="img/testimonials/01.jpg" alt=""></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="slider">
+                        <div>
+                            <img class="person" src="http://placehold.it/100x100" alt="">
+                            <h6>
+                    “Bu kulüp bir harika dostum”
+                 </h6>
+                            <h3>- Aaron Paul</h3>
+                            <h5 class="no-pad-top">CEO. Co Founder of Trimmed</h5>
+                        </div>
+                        <h3>Kulübümüz hakkında yaptığınız geri dönüşler bizim için çok önemli. Bizim için bir yorum yapmak ister misiniz?<br><br><a href="#" class="btn"><span>Yorum bırakın</span></a></h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
         <!-- Social -->
         <div class="social-strip dark3 center">
             <div class="container-fluid">
@@ -305,35 +326,6 @@ include 'header.php';
                 </div>
             </div>
         </div>
-
-        <!-- Testimonials -->
-        <section id="c_testimonials" class="center parallax-container dark" data-overlay="8">
-            <div class="parallax"><img src="img/testimonials/01.jpg" alt=""></div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="slider">
-                            <div>
-                                <img class="person" src="http://placehold.it/100x100" alt="">
-                                <h6>
-                        “Bu kulüp bir harika dostum”
-                     </h6>
-                                <h3>- Aaron Paul</h3>
-                                <h5 class="no-pad-top">CEO. Co Founder of Trimmed</h5>
-                            </div>
-                            <div>
-                                <img class="person" src="http://placehold.it/100x100" alt="">
-                                <h6>
-                        “Beşiktaş adamı lalay lalay”
-                     </h6>
-                                <h3>- Ali Burak Ateş</h3>
-                                <h5 class="no-pad-top">CEO. Co Founder of Trimmed</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
 
         <!-- Contact -->
         <section id="c_contact">
@@ -370,7 +362,7 @@ include 'header.php';
                                 </div>
                             </div>
                             <div class="col-sm-12 center">
-                                <input type="submit" value="Gönder">
+                                <input type="submit" value="GÖNDER">
                                 <div class="messages"></div>
                             </div>
                         </form>

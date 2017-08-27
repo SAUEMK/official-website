@@ -336,7 +336,6 @@ include 'header.php';
                                 <a class="next-post" href="#">Sonraki sayfa<i class="ion-chevron-right"></i></a>
                             </div>
                         </div>
-                
                 </div>
 
                     <div class="col-md-3 sidebar">

@@ -9,9 +9,33 @@ include 'header.php';
                         <div class="col-md-12">
                             <h1>Changelog</h1>
 
-                            <h5>Sitenin güncel versiyonu: 0.3.3.081917</h5>
+                            <h5>Sitenin güncel versiyonu: 0.4.0.082817</h5>
 
-                            <h3>Versiyon 0.3.3 [güncel]</h3>
+                            <h3>Versiyon 0.4 [güncel]</h3>
+
+                            <h6>Tasarım :: Ana Sayfa</h6>
+                            <ul class='list2'>
+                            <li>Carousel'in arkaplanı değiştirildi.</li>
+
+                            <h6>Tasarım :: Renk Değişikliği</h6>
+                            <ul class='list2'>
+                            <li>Ana sayfa, footer ve etkinliklerimiz kısımlarında, renk değişikliğne gidildi.</li>
+
+                            <h6>Tasarım :: Header (EMK Bülten)</h6>
+                            <ul class='list2'>
+                            <li>EMK Bülten dışındaki tüm header'lardan arama butonu kaldırıldı.</li>
+
+                            <h6>Tasarım :: Testimonials</h6>
+                            <ul class='list2'>
+                            <li>Slider'a yeni bir pencere eklendi ve bu pencereye, ziyaretçilerin yorum yapabilmesi için buton eklendi.</li>
+
+                            <h6>Tasarım :: Etkinliklerimiz</h6>
+                            <ul class='list2'>
+                            <li>Sayfanın en üst kısmındaki 'Yaklaşan etkinliklerimiz' bölümü kaldırıldı. Sayfanın renklendirilmesinde değişiklik yapıldı.</li>
+
+                            <h2>------------------------------------------</h2>
+
+                            <h3>Versiyon 0.3.3 - 19 Ağustos 2017</h3>
 
                             <h6>Tasarım :: Galeri</h6>
                             <ul class='list2'>
@@ -21,7 +45,7 @@ include 'header.php';
                             <ul class='list2'>
                             <li>İletişim sayfasının en alt kısmında kulüple ilgili en çok merak edilen soruları bulabilirsiniz.</li>
 
-                            <h2>------------------------------------------</h2>
+                            <h5>-----------------------------------------------------------------------------------</h5>
 
                             <h3>Versiyon 0.3.1 - 30 Temmuz 2017</h3>
 

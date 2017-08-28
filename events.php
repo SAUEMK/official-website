@@ -3,59 +3,8 @@ include 'header.php';
 ?>
 
 <!-- Gallery -->
-        <section class="gallery">
-            <div class="container">
-                <div class="row">
-                    <div class="col col-md-6 col-md-offset-3 title">
-                        <h2>Yaklaşan Etkinliklerimiz</h2>
-                        <h4>Sizleri yakın zamanda neler bekliyor?</h4>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="center-loop">
-                            <div>
-                                <a href="img/events/01.jpg" data-lity>
-                                    <img src="img/events/01.jpg" alt="">
-                                </a>
-                            </div>
-                            <div>
-                                <a href="img/events/02.jpg" data-lity>
-                                    <img src="img/events/02.jpg" alt="">
-                                </a>
-                            </div>
-                            <div>
-                                <a href="img/events/03.jpg" data-lity>
-                                    <img src="img/events/03.jpg" alt="">
-                                </a>
-                            </div>
-                            <div>
-                                <a href="img/events/04.jpg" data-lity>
-                                    <img src="img/events/04.jpg" alt="">
-                                </a>
-                            </div>
-                            <div>
-                                <a href="img/events/05.jpg" data-lity>
-                                    <img src="img/events/05.jpg" alt="">
-                                </a>
-                            </div>
-                            <div>
-                                <a href="img/events/06.jpg" data-lity>
-                                    <img src="img/events/06.jpg" alt="">
-                                </a>
-                            </div>
-                            <div>
-                                <a href="img/events/04.jpg" data-lity>
-                                    <img src="img/events/04.jpg" alt="">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
 
-        <section class="halfarea grey">
+        <section class="halfarea dark1">
             <div class="col-md-4 col-sm-2 imagearea">
                 <img class="imagearea-img" src="img/gallery/16.emg/01.jpg" alt=""><!--Resim kısmına etkinliğin afişi gelecek ama boyutlarının özel ayarlanması lazım-->
             </div>
@@ -112,7 +61,7 @@ include 'header.php';
             </div>
         </section>
 
-        <section class="halfarea center">
+        <section class="halfarea center dark2">
             <div class="col-md-6 col-sm-3 imagearea col-md-offset-6 col-sm-offset-9">
                 <img class="imagearea-img" src="img/gallery/16.emg/02.jpg" alt="">
             </div>
@@ -138,7 +87,7 @@ include 'header.php';
             </div>
         </section>
 
-      <section class="halfarea">
+      <section class="halfarea primary">
             <div class="col-md-6 col-sm-3 imagearea">
                 <img class="imagearea-img" src="img/gallery/16.emg/03.jpg" alt="">
             </div>
@@ -164,7 +113,7 @@ include 'header.php';
             </div>
         </section>
 
-        <section class="halfarea center">
+        <section class="halfarea center grey">
             <div class="col-md-6 col-sm-3 imagearea col-md-offset-6 col-sm-offset-9">
                 <img class="imagearea-img" src="img/gallery/16.emg/04.jpg" alt="">
             </div>

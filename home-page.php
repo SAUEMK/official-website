@@ -2,11 +2,11 @@
 include 'header.php';
 ?>
 
-<header id="neutral" class="dark1 center" style="background-image:url(img/carousel/01.jpg);"
+<header id="neutral" class="dark1 center" style="background-image:url(img/carousel/02.jpg);"
             data-overlay="8">
             <div class="header-in">
                 <div class="caption">
-                    <h1>SAÜEMK GURURLA SUNAR 👌 </h1>
+                    <h1>🔶SAÜEMK GURURLA SUNAR🔷</h1>
                     <h6>Sitemize göz atmaya başlamadan önce, sizler için hazırladığımız tanıtım videomuzu izlemek ister misiniz?</h6>
                     <a href="https://youtu.be/MKk1u5RMTn4" class="btn alt playvideo" data-lity><span><i class="ion-ios-play-outline"></i> Oynat</span></a>
                 </div>
@@ -46,7 +46,7 @@ include 'header.php';
         </section>
 
           <!-- Gallery -->
-        <section class="gallery no-lr-pad">
+        <section class="gallery no-lr-pad dark2">
             <div class="container-fluid no-pad">
                 <div class="row">
                     <div class="col col-md-6 col-md-offset-3 title">
@@ -293,25 +293,25 @@ include 'header.php';
         </section>
 
          <!-- Testimonials -->
-         <section id="c_testimonials" class="center parallax-container dark" data-overlay="8">
-        <div class="parallax"><img src="img/testimonials/01.jpg" alt=""></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="slider">
-                        <div>
-                            <img class="person" src="http://placehold.it/100x100" alt="">
-                            <h6>
-                    “Bu kulüp bir harika dostum”
-                 </h6>
-                            <h3>- Aaron Paul</h3>
-                            <h5 class="no-pad-top">CEO. Co Founder of Trimmed</h5>
-                        </div>
-                        <h3>Kulübümüz hakkında yaptığınız geri dönüşler bizim için çok önemli. Bizim için bir yorum yapmak ister misiniz?<br><br><a href="#" class="btn"><span>Yorum bırakın</span></a></h3>
+        <section id="c_testimonials" class="center parallax-container dark" data-overlay="8">
+            <div class="parallax"><img src="img/testimonials/01.jpg" alt=""></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="slider">
+                            <div>
+                                <img class="person" src="http://placehold.it/100x100" alt="">
+                                <h6>
+                        “Bu kulüp bir harika dostum”
+                    </h6>
+                                <h3>- Aaron Paul</h3>
+                                <h5 class="no-pad-top">CEO. Co Founder of Trimmed</h5>
+                            </div>
+                            <h3>Kulübümüz hakkında yaptığınız geri dönüşler bizim için çok önemli. Bizim için bir yorum yapmak ister misiniz?<br><br><a href="#" class="btn start-project"><span>Yorum bırakın</span></a></h3>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
         <!-- Social -->
         <div class="social-strip dark3 center">

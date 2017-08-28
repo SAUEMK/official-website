@@ -1,5 +1,5 @@
 <!-- Logo Strip -->
-        <div id="c_logos" class="area dark2 center">
+        <div id="c_logos" class="area dark1 center">
             <div class="container-fluid">
                 <h5>Sponsorlarımız</h5>
                 <div class="row">
@@ -15,7 +15,7 @@
             </div>
         </div>
         
-<footer id="minimal" class="dark2 center">
+<footer id="minimal" class="dark1 center">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 col-md-offset-3">
@@ -33,7 +33,7 @@
                         </div>
                         <hr>
                         <p class="footer-text">2017 &copy; Sakarya Üniversite Endüstri Mühendisliği Kulübü. <br>Bu sitenin geliştirilmesi Bilişim & Medya Komisyonu tarafından yapılmıştır. Bütün hakları saklıdır. 
-                        <br>Sitenin güncel versiyonu: 0.3.3.081917<br>
+                        <br>Sitenin güncel versiyonu: 0.4.0.082817<br>
                         <a href="http://localhost:8080/_sauemk/changelog.php">Changelog</a><a href="http://localhost:8080/_sauemk/terms.php">Terms and Conditions</a><a href="http://localhost:8080/_sauemk/policy.php">Cookie Policy</a></p>
                     </div>
                 </div>

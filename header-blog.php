@@ -39,7 +39,6 @@
     <div class="web-in">
 
         <!-- Search Modal -->
-        <!--
             <div id="search-modal">
             <img src="img/exit.svg" class="exit" alt="">
             <form class="search-form" action="http://dev.premonday.com/arisn/post">
@@ -48,7 +47,6 @@
                 <span>Arama yapabilmek için <b class="primary">ENTER</b> tuşuna basınız.</span>
             </form>
         </div>
-        -->
 
         <!-- Start Project Modal -->
         <div id="modal-bg">
@@ -100,7 +98,11 @@
                     <div class="col-md-12">
                         <div class="nav-ui n_">
                             <div>
-                                <a href="#" class="btn start-project"><span>ÜYE GİRİŞİ</span></a>
+                                <a href="#" class="btn hidden-xs start-project"><span>ÜYE GİRİŞİ</span></a>
+                                <a href="#" class="search">
+                                    <img class="white-icon" src="img/search.svg" alt="">
+                                    <img class="dark-icon" src="img/search-dark.svg" alt="">
+                                </a>
                                 <div id="menu-icon"><span></span></div>
                             </div>
                         </div>

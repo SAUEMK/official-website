@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="vendor/lightbox/lity.min.css">
     <!-- Theme CSS -->
     <link id="theme" rel="stylesheet" href="css/theme01.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <script src="vendor/modernizr.js"></script>
 </head>
 

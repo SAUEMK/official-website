@@ -6,7 +6,7 @@ include 'header.php';
             data-overlay="8">
             <div class="header-in">
                 <div class="caption">
-                    <h1>🔶SAÜEMK GURURLA SUNAR🔷</h1>
+                    <h1><a href="play/snake/game.html">🔶</a>SAÜEMK GURURLA SUNAR<a href="play/birdy/game.html">🔷</a></h1>
                     <h6>Sitemize göz atmaya başlamadan önce, sizler için hazırladığımız tanıtım videomuzu izlemek ister misiniz?</h6>
                     <a href="https://youtu.be/MKk1u5RMTn4" class="btn alt playvideo" data-lity><span><i class="ion-ios-play-outline"></i> Oynat</span></a>
                 </div>
@@ -307,7 +307,7 @@ include 'header.php';
                                 <h3>- Aaron Paul</h3>
                                 <h5 class="no-pad-top">CEO. Co Founder of Trimmed</h5>
                             </div>
-                            <h3>Kulübümüz hakkında yaptığınız geri dönüşler bizim için çok önemli. Bizim için bir yorum yapmak ister misiniz?<br><br><a href="#" class="btn start-project"><span>Yorum bırakın</span></a></h3>
+                            <h3>Kulübümüz hakkında yaptığınız geri dönüşler bizim için çok önemli. Bizim için bir yorum yapmak ister misiniz?<br><br><a href="http://localhost:8080/_sauemk/comment.php" class="btn"><span>Yorum bırakın</span></a></h3>
                     </div>
                 </div>
             </div>

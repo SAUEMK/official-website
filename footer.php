@@ -28,13 +28,15 @@
                             <a href="#"><i class="ion-social-googleplus"></i></a>
                             <a href="#"><i class="ion-social-snapchat"></i></a>
                             <a href="#"><i class="ion-social-youtube"></i></a>
+                            <a href="music/index.html"><i class="fa fa-spotify"></i></a>
+                            <!--
                             <a href="play/game.html"><i class="ion-ios-game-controller-b"></i></a>
-                            
+                            -->
                         </div>
                         <hr>
                         <p class="footer-text">2017 &copy; Sakarya Üniversite Endüstri Mühendisliği Kulübü. <br>Bu sitenin geliştirilmesi Bilişim & Medya Komisyonu tarafından yapılmıştır. Bütün hakları saklıdır. 
-                        <br>Sitenin güncel versiyonu: 0.4.0.082817<br>
-                        <a href="http://localhost:8080/_sauemk/changelog.php">Changelog</a><a href="http://localhost:8080/_sauemk/terms.php">Terms and Conditions</a><a href="http://localhost:8080/_sauemk/policy.php">Cookie Policy</a></p>
+                        <br>Sitenin güncel versiyonu: 0.4.3.083017<br>
+                        <a href="http://localhost:8080/_sauemk/dev/easter01.php">There's nothing here!</a><a href="http://localhost:8080/_sauemk/terms.php">Terms and Conditions</a><a href="http://localhost:8080/_sauemk/policy.php">Cookie Policy</a></p>
                     </div>
                 </div>
             </div>

@@ -231,6 +231,30 @@ include 'header.php';
             </div>
         </section>
 
+        <div class="container">
+                <div class="song1_inner clearfix">
+                    <div class="song1 clearfix">
+                        <div class="left clearfix">
+                            <figure><img src="images/song1.jpg" alt=""></figure>
+                            <div class="caption">
+                                <div class="txt1">Radio chanel: ABMode Music</div>
+                                <div class="txt2">Jazz Samba</div>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <div class="audio1">
+                                <audio class="audio" preload="none" style="width: 100%; visibility: hidden;"
+                                       controls="controls">
+                                    <source type="audio/mpeg" src="audio/19377766_jazz-samba-5_by_abmode_preview.mp3"/>
+                                    <source type="audio/mpeg" src="audio/719569_once_by_tsapa_preview.mp3"/>
+                                    <a href="audio/19377766_jazz-samba-5_by_abmode_preview.mp3">audio/song1.mp3</a>
+                                </audio>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
 <?php
 include 'footer.php';
 ?>

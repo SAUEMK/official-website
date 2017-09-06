@@ -11,8 +11,8 @@ include 'header.php';
                                     <h5>500 Internal Error</h5>
                                     <h1>İÇERİK BULUNAMADI</h1>
                                     <h4>Lüften geri döner misin? Buradan sonra başka bir şey yok!</h4>
-                                    <a href="http://localhost:8080/_sauemk/dev/easter03.php"><p><font size="1">Devam et</font><p></a>
-                                    <a href="http://localhost:8080/_sauemk/home-page.php" class="btn"><span>Geri dön</span></a>
+                                    <a href="easter03.php"><p><font size="1">Devam et</font><p></a>
+                                    <a href="../index.php" class="btn"><span>Geri dön</span></a>
                                 </div>
                             </div>
                         </div>

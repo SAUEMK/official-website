@@ -1,143 +1,102 @@
 <?php
 include 'header.php';
+ $yaklasanetkinliksor=$db->prepare("select * from yaklasanetkinlikler order by sira");
+    $yaklasanetkinliksor->execute();
 ?>
 
-<!-- Gallery -->
 
+
+
+
+        <?php 
+            $yakinetkinliksor=$db->prepare("SELECT * from yakinetkinlik where id=?");
+            $yakinetkinliksor->execute(array(0));
+            $yakinetkinlikcek=$yakinetkinliksor->fetch(PDO::FETCH_ASSOC);
+        ?>
+
+   
         <section class="halfarea dark1">
             <div class="col-md-4 col-sm-2 imagearea">
-                <img class="imagearea-img" src="img/gallery/16.emg/01.jpg" alt=""><!--Resim kısmına etkinliğin afişi gelecek ama boyutlarının özel ayarlanması lazım-->
+                <img class="imagearea-img" src="<?php echo $yakinetkinlikcek['afis']?>" alt=""><!--Resim kısmına etkinliğin afişi gelecek ama boyutlarının özel ayarlanması lazım-->
             </div>
             <div class="container">
                 <div class="row">
                     <div class="col-md-7 col-sm-9 col-md-offset-5 col-sm-offset-3">
                         <div class="row">
                             <div class="col-sm-12">
-                                <h2>En yakın etkinliğin ismi</h2>
-                                <h4>Slogan</h4>
+                                <h2><?php echo $yakinetkinlikcek['adi']?></h2>
+                                <h4><?php echo $yakinetkinlikcek['slogan']?></h4>
                             </div>
                         </div>
-                        <div class="row m-space">
+                         <div class="row m-space">
                             <div class="col-sm-6 service">
-                                <i class="ion-ios-barcode-outline"></i>
-                                <h5>Etkinlik hakkında başlık</h5>
-                                <p>Proin eu fringilla magna. Aenean semper vel purus
-                                    eget ullamcorper. Aliquam nisl dui, tempor quis
-                                    posuere a, malesuada in velit. Maecenas egestas
-                                    convallis.
-                                </p>
+                                <i class="<?php echo $yakinetkinlikcek['detay1ikon']?>"></i>
+                                <h5><?php echo $yakinetkinlikcek['detay1baslik']?></h5>
+                               <?php echo $yakinetkinlikcek['detay1']?>
                             </div>
                             <div class="col-sm-6 service">
-                                <i class="ion-ios-heart-outline"></i>
-                                <h5>Etkinlik hakkında başlık</h5>
-                                <p>Proin eu fringilla magna. Aenean semper vel purus
-                                    eget ullamcorper. Aliquam nisl dui, tempor quis
-                                    posuere a, malesuada in velit. Maecenas egestas
-                                    convallis.
-                                </p>
+                                <i class="<?php echo $yakinetkinlikcek['detay2ikon']?>"></i>
+                                <h5><?php echo $yakinetkinlikcek['detay2baslik']?></h5>
+                                <?php echo $yakinetkinlikcek['detay2']?>
                             </div>
                             <div class="col-sm-6 service">
-                                <i class="ion-ios-settings"></i>
-                                <h5>Etkinlik hakkında başlık</h5>
-                                <p>Proin eu fringilla magna. Aenean semper vel purus
-                                    eget ullamcorper. Aliquam nisl dui, tempor quis
-                                    posuere a, malesuada in velit. Maecenas egestas
-                                    convallis.
-                                </p>
+                                <i class="<?php echo $yakinetkinlikcek['detay3ikon']?>"></i>
+                                <h5><?php echo $yakinetkinlikcek['detay3baslik']?></h5>
+                               <?php echo $yakinetkinlikcek['detay3']?>
                             </div>
                             <div class="col-sm-6 service">
-                                <i class="ion-ios-lightbulb-outline"></i>
-                                <h5>    Etkinlik hakkında başlık</h5>
-                                <p>Proin eu fringilla magna. Aenean semper vel purus
-                                    eget ullamcorper. Aliquam nisl dui, tempor quis
-                                    posuere a, malesuada in velit. Maecenas egestas
-                                    convallis.
-                                </p>
+                                <i class="<?php echo $yakinetkinlikcek['detay4ikon']?>"></i>
+                                <h5><?php echo $yakinetkinlikcek['detay4baslik']?></h5>
+                                <?php echo $yakinetkinlikcek['detay4']?>
                             </div>
-                            <a href="#" class="btn"><span>Katılmak istiyorum</span></a>
-                        </div>
                     </div>
                 </div>
             </div>
-        </section>
-
-        <section class="halfarea center dark2">
-            <div class="col-md-6 col-sm-3 imagearea col-md-offset-6 col-sm-offset-9">
-                <img class="imagearea-img" src="img/gallery/16.emg/02.jpg" alt="">
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-5 col-sm-8">
-                        <h5>Yaklaşan etkinlik #01</h5>
-                        <h2>Etkinliğin ismi</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Veritatis minus distinctio dolorum possimus adipisci,
-                            soluta placeat id eos, fugiat repellendus hic dolor accusamus
-                            repellat delectus nam modi. Iste ullam, obcaecati!</p>
-                        <ul class='list'>
-                            <li>List Item 1</li>
-                            <li>List Item 2</li>
-                            <li>List Item 3</li>
-                        </ul>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Veritatis minus distinctio dolorum possimus adipisci.</p>
-                        <a href="#" class="btn"><span>Katılmak istiyorum</span></a>
-                    </div>
-                </div>
             </div>
         </section>
 
-      <section class="halfarea primary">
-            <div class="col-md-6 col-sm-3 imagearea">
-                <img class="imagearea-img" src="img/gallery/16.emg/03.jpg" alt="">
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-5 col-sm-8 col-md-offset-7 col-sm-offset-4">
-                        <h5>Yaklaşan etkinlik #02</h5>
-                        <h2>Etkinliğin ismi</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Veritatis minus distinctio dolorum possimus adipisci,
-                            soluta placeat id eos, fugiat repellendus hic dolor accusamus
-                            repellat delectus nam modi. Iste ullam, obcaecati!</p>
-                        <ul class='list'>
-                            <li>List Item 1</li>
-                            <li>List Item 2</li>
-                            <li>List Item 3</li>
-                        </ul>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Veritatis minus distinctio dolorum possimus adipisci.</p>
-                        <a href="#" class="btn"><span>Katılmak istiyorum</span></a>
-                    </div>
-                </div>
-            </div>
-        </section>
 
+
+
+<?php
+    $var='col-md-6 col-sm-3 imagearea';
+    $var2='col-md-6 col-sm-3 imagearea col-md-offset-6 col-sm-offset-9 ';   
+    $var3='col-md-5 col-sm-8';
+    $var4='col-md-5 col-sm-8 col-md-offset-7 col-sm-offset-4';                              
+   
+    while($yaklasanetkinlikcek=$yaklasanetkinliksor->fetch(PDO::FETCH_ASSOC)){
+?>
         <section class="halfarea center grey">
-            <div class="col-md-6 col-sm-3 imagearea col-md-offset-6 col-sm-offset-9">
-                <img class="imagearea-img" src="img/gallery/16.emg/04.jpg" alt="">
+            <div class="<?php if ($yaklasanetkinlikcek['sira']%2==0) {
+                    echo $var;
+                }else{
+                    echo $var2;
+                } ?>">      
+                <img class="imagearea-img" src="<?php echo $yaklasanetkinlikcek['afis']; ?>" alt="">
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-5 col-sm-8">
-                        <h5>Yaklaşan etkinlik #03</h5>
-                        <h2>Etkinliğin ismi</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Veritatis minus distinctio dolorum possimus adipisci,
-                            soluta placeat id eos, fugiat repellendus hic dolor accusamus
-                            repellat delectus nam modi. Iste ullam, obcaecati!</p>
-                        <ul class='list'>
-                            <li>List Item 1</li>
-                            <li>List Item 2</li>
-                            <li>List Item 3</li>
-                        </ul>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Veritatis minus distinctio dolorum possimus adipisci.</p>
-                        <a href="#" class="btn"><span>Katılmak istiyorum</span></a>
-                    </div>
+        <div class="container">
+            <div class="row">
+                <div class="<?php if ($yaklasanetkinlikcek['sira']%2!=0) {
+                        echo $var3;
+                    }else{
+                        echo $var4;
+                    } ?>">         
+                    <h2><?php echo $yaklasanetkinlikcek['adi']; ?></h2>
+                    <?php echo $yaklasanetkinlikcek['detay']; ?>
+                    <?php if ($yaklasanetkinlikcek['formonay']==1) { ?>
+                       <a href="register-form.php?id=<?php echo $yaklasanetkinlikcek['id']; ?>" class="btn"><span>Katılmak istiyorum</span></a>
+                   <?php } ?>
+                   
                 </div>
             </div>
+        </div>
         </section>
+<?php 
+    }
+?>
+
+
+
 
         <!-- Accordion -->
         <section class="dark1">
@@ -147,107 +106,47 @@ include 'header.php';
                         <h2>Tüm Etkinliklerimiz</h2>
                         <h4>Bugüne gelene kadar neler yapmışız neler</h4>
                     </div>
+
+
+
+  <?php
+
+
+                                   
+              $etkinliksor=$db->prepare("select id,yil from tumetkinlikler where yil NOT IN ( 0 ) order by id");
+              $etkinliksor->execute();
+
+
+
+                                        while($etkinlikcek=$etkinliksor->fetch(PDO::FETCH_ASSOC)){ 
+
+$id=$etkinlikcek['id'];
+
+                                       $altetkinliksor=$db->prepare("select * from tumetkinlikler where yilustid=:id");
+              $altetkinliksor->execute(array(
+                'id'=>$id
+                ));
+?>
                     <div class="col-md-6">
                         <div class="accordion">
-                            <h5>2016</h5>
-                            <li>Etkinliğin ismi
+                            <h5><?php echo $etkinlikcek['yil'] ?></h5>
+                           <?php  while($altetkinlikcek=$altetkinliksor->fetch(PDO::FETCH_ASSOC)){  ?>
+                            <li><?php echo $altetkinlikcek['ad'] ?>
                                 <ul>
-                                    <h3>First accordion slide</h3>
-                                    <p>Vivamus facilisisnibh scelerisque laoreet. Lorem
-                                        ipsum dolor sit amet, consectetur adipisicing
-                                        elit. Aspernatur vel distinctio minima ipsa
-                                        nostrum quis sequi.</p>
+                                    <p><?php echo $altetkinlikcek['aciklama'] ?></p>
                                 </ul>
                             </li>
-
-                            <li>Etkinliğin ismi
-                                <ul>
-                                    <h3>Second accordion slide</h3>
-                                    <p>Vivamus facilisisnibh scelerisque laoreet. Lorem
-                                        ipsum dolor sit amet, consectetur adipisicing
-                                        elit. Aspernatur vel distinctio minima ipsa
-                                        nostrum quis sequi.</p>
-                                </ul>
-                            </li>
-
-                            <li>Etkinliğin ismi
-                                <ul>
-                                    <h3>Third accordion slide</h3>
-                                    <p>Vivamus facilisisnibh scelerisque laoreet. Lorem
-                                        ipsum dolor sit amet, consectetur adipisicing
-                                        elit. Aspernatur vel distinctio minima ipsa
-                                        nostrum quis sequi.</p>
-                                </ul>
-                            </li>
+                            <?php } ?>    
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <div class="accordion">
-                            <h5>2015</h5>
-                            <li>Etkinliğin ismi
-                                <ul>
-                                    <h3>First accordion slide</h3>
-                                    <p>Vivamus facilisisnibh scelerisque laoreet. Lorem
-                                        ipsum dolor sit amet, consectetur adipisicing
-                                        elit. Aspernatur vel distinctio minima ipsa
-                                        nostrum quis sequi.</p>
-                                </ul>
-                            </li>
+                    
+<?php 
+}?>
 
-                            <li>Etkinliğin ismi
-                                <ul>
-                                    <h3>Second accordion slide</h3>
-                                    <p>Vivamus facilisisnibh scelerisque laoreet. Lorem
-                                        ipsum dolor sit amet, consectetur adipisicing
-                                        elit. Aspernatur vel distinctio minima ipsa
-                                        nostrum quis sequi.</p>
-                                </ul>
-                            </li>
 
-                            <li>Etkinliğin ismi
-                                <ul>
-                                    <h3>Third accordion slide</h3>
-                                    <p>Vivamus facilisisnibh scelerisque laoreet. Lorem
-                                        ipsum dolor sit amet, consectetur adipisicing
-                                        elit. Aspernatur vel distinctio minima ipsa
-                                        nostrum quis sequi.</p>
-                                </ul>
-                            </li>
-                        </div>
-                    </div>
-                    <div class="col-md-12">
-                        <div class="accordion">
-                            <h5>TARİHİN TOZLU SAYFALARI</h5>
-                            <li class="">Etkinliğin ismi
-                                <ul>
-                                    <h3>First accordion slide</h3>
-                                    <p>Vivamus facilisisnibh scelerisque laoreet. Lorem
-                                        ipsum dolor sit amet, consectetur adipisicing
-                                        elit. Aspernatur vel distinctio minima ipsa
-                                        nostrum quis sequi.</p>
-                                </ul>
-                            </li>
 
-                            <li>Etkinliğin ismi
-                                <ul>
-                                    <h3>Second accordion slide</h3>
-                                    <p>Vivamus facilisisnibh scelerisque laoreet. Lorem
-                                        ipsum dolor sit amet, consectetur adipisicing
-                                        elit. Aspernatur vel distinctio minima ipsa
-                                        nostrum quis sequi.</p>
-                                </ul>
-                            </li>
 
-                            <li>Etkinliğin ismi
-                                <ul>
-                                    <h3>Third accordion slide</h3>
-                                    <p>Vivamus facilisisnibh scelerisque laoreet. Lorem
-                                        ipsum dolor sit amet, consectetur adipisicing
-                                        elit. Aspernatur vel distinctio minima ipsa
-                                        nostrum quis sequi.</p>
-                                </ul>
-                            </li>
-                        </div>
+
                     </div>
                 </div>
         </section>

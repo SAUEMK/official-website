@@ -11,8 +11,8 @@ include 'header.php';
                                     <h5>500 Internal Error</h5>
                                     <h1>İçerik bulunamadı</h1>
                                     <h4>Üzgünüm, sana burada bir şey olmadığını söylemiştik :)</h4>
-                                    <a href="http://localhost:8080/_sauemk/home-page.php" class="btn"><span>Geri dön</span></a>
-                                    <a href="http://localhost:8080/_sauemk/dev/easter02.php"><p><font size="1">Devam et</font><p></a>
+                                    <a href="../index.php" class="btn"><span>Geri dön</span></a>
+                                    <a href="easter02.php"><p><font size="1">Devam et</font><p></a>
                                 </div>
                             </div>
                         </div>

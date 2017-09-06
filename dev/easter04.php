@@ -11,8 +11,8 @@ include 'header.php';
                                     <h5>500 Internal Error</h5>
                                     <h1>Şaşırtıcı</h1>
                                     <h4>Azmine hayran kaldık doğrusu ama bu sana son uyarımız, bizce geri dönmelisin! Bir daha sormayacağız.</h4>
-                                    <a href="http://localhost:8080/_sauemk/home-page.php" class="btn"><span>Geri dön</span></a>
-                                    <a href="http://localhost:8080/_sauemk/dev/easter05.php" class="btn"><span>Devam et</span></a>
+                                    <a href="../index.php" class="btn"><span>Geri dön</span></a>
+                                    <a href="easter05.php" class="btn"><span>Devam et</span></a>
                                 </div>
                             </div>
                         </div>

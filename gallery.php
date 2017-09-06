@@ -1,5 +1,9 @@
 <?php
 include 'header.php';
+
+
+$fotosor=$db->prepare("select * from galeri_foto order by foto_sira");
+$fotosor->execute();
 ?>
 
 <!-- Gallery -->
@@ -14,42 +18,20 @@ include 'header.php';
                 <div class="row">
                     <div class="col-md-12">
                         <div class="center-loop">
-                            <div>
-                                <a href="img/gallery/16.emg/08.jpg" data-lity>
-                                    <img src="img/gallery/16.emg/08.jpg" alt="">
+                          
+<?php 
+            while($fotocek=$fotosor->fetch(PDO::FETCH_ASSOC)){ 
+              if ($fotocek['foto_onecikar']==1) {?>
+  <div>
+                                <a href="<?php echo $fotocek['foto']; ?>" data-lity>
+                                    <img src="<?php echo $fotocek['foto']; ?>" alt="">
                                 </a>
-                            </div>
-                            <div>
-                                <a href="img/gallery/16.emg/02.jpg" data-lity>
-                                    <img src="img/gallery/16.emg/02.jpg" alt="">
-                                </a>
-                            </div>
-                            <div>
-                                <a href="img/gallery/16.emg/03.jpg" data-lity>
-                                    <img src="img/gallery/16.emg/03.jpg" alt="">
-                                </a>
-                            </div>
-                            <div>
-                                <a href="img/gallery/16.emg/04.jpg" data-lity>
-                                    <img src="img/gallery/16.emg/04.jpg" alt="">
-                                </a>
-                            </div>
-                            <div>
-                                <a href="img/gallery/16.emg/05.jpg" data-lity>
-                                    <img src="img/gallery/16.emg/05.jpg" alt="">
-                                </a>
-                            </div>
-                            <div>
-                                <a href="img/gallery/16.emg/06.jpg" data-lity>
-                                    <img src="img/gallery/16.emg/06.jpg" alt="">
-                                </a>
-                            </div>
-                            <div>
-                                <a href="img/gallery/16.emg/07.jpg" data-lity>
-                                    <img src="img/gallery/16.emg/07.jpg" alt="">
-                                </a>
-                            </div>
-                        </div>
+                                       </div>
+                              <?php }
+                                } ?>
+                     
+                         
+                        </div>  
                     </div>
                 </div>
             </div>
@@ -65,71 +47,35 @@ include 'header.php';
                     </div>
                 </div>
                 <div class="row m-space portfolio list">
+ <?php
+
+
+                                   
+              $albumsor=$db->prepare("select * from galeri order by album_sira");
+              $albumsor->execute();
+              while($albumcek=$albumsor->fetch(PDO::FETCH_ASSOC)){ 
+              if ($albumcek['album_durum']==1) {?>
+
 
                     <div class="col-md-3 col-xs-6 mh">
-                        <a href="photos.php">
+                        <a href="photos.php?album_id=<?php echo $albumcek['album_id']; ?>">
                             <div class="project-image">
-                                <img src="img/gallery/16.emg/05.jpg" alt="">
+                                <img src="<?php echo $albumcek['album_kapakfoto']; ?>" alt="">
                             </div>
                             <div class="project-info">
-                                <h5>22.02.2017</h5>
-                                <h3>16. EMG</h3>
+                               <!-- <h5>22.02.2017</h5> -->
+                                <h3><?php echo $albumcek['album_adi']; ?></h3>
                                 <ul class="tags">
-                                    <li>EMG</li>
+                                    <li><!--DOLDUR AQ--></li>
                                 </ul>
                             </div>
                         </a>
                     </div>
                     <!-- end of item -->
-
-                    <div class="col-md-3 col-xs-6 mh">
-                        <a href="#">
-                            <div class="project-image">
-                                <img src="img/gallery/16.emg/05.jpg" alt="">
-                            </div>
-                            <div class="project-info">
-                                <h5>14.03.2017</h5>
-                                <h3>Deneyimli Endüstri Mühendisliği Günleri</h3>
-                                <ul class="tags">
-                                    <li>Endüstri Mühendisleri</li>
-                                    <li>Mezun</li>
-                                </ul>
-                            </div>
-                        </a>
-                    </div>
-                    <!-- end of item -->
-
-                    <div class="col-md-3 col-xs-6 mh">
-                        <a href="#">
-                            <div class="project-image">
-                                <img src="img/gallery/16.emg/05.jpg" alt="">
-                            </div>
-                            <div class="project-info">
-                                <h5>15.04.2017</h5>
-                                <h3>Vaka Analizi</h3>
-                                <ul class="tags">
-                                    <li>Yarışma</li>
-                                </ul>
-                            </div>
-                        </a>
-                    </div>
-                    <!-- end of item -->
-
-                    <div class="col-md-3 col-xs-6 mh">
-                        <a href="#">
-                            <div class="project-image">
-                                <img src="img/gallery/16.emg/05.jpg" alt="">
-                            </div>
-                            <div class="project-info">
-                                <h5>07.02.2018</h5>
-                                <h3>Microsoft Teknik Gezisi</h3>
-                                <ul class="tags">
-                                    <li>Teknik Gezi</li>
-                                </ul>
-                            </div>
-                        </a>
-                    </div>
-                    <!-- end of item -->
+     <?php   } ?>
+  
+   
+<?php } ?>
 
                 </div>
             </div>

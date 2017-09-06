@@ -4,12 +4,17 @@
                 <h5>Sponsorlarımız</h5>
                 <div class="row">
                     <div class="col-md-12 slide">
-                        <div><img src="img/logos/01.png" alt=""></div>
-                        <div><img src="img/logos/02.png" alt=""></div>
-                        <div><img src="img/logos/03.png" alt=""></div>
-                        <div><img src="img/logos/04.png" alt=""></div>
-                        <div><img src="img/logos/05.png" alt=""></div>
-                        <div><img src="img/logos/06.png" alt=""></div>
+<?php
+    $sponsorsor=$db->prepare("select * from sponsor order by sponsor_sira");
+    $sponsorsor->execute();
+
+while($sponsorcek=$sponsorsor->fetch(PDO::FETCH_ASSOC)){ 
+    if ($sponsorcek['sponsor_durum']==1) { ?>
+              
+         <div><img src=" <?php echo $sponsorcek['sponsor_logo'] ?>" alt=" <?php echo $sponsorcek['sponsor_sira'] ?>"></div>
+
+  <?php } ?>
+<?php } ?>
                     </div>
                 </div>
             </div>
@@ -19,24 +24,20 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 col-md-offset-3">
-                        <img src="img/logos/emk-logo.png" width="150" alt="">
+                        <img src="<?php echo $ayarcek['ayar_logo'];?>" width="150" alt="">
                         <div class="social">
-                            <a href="#"><i class="ion-social-facebook"></i></a>
-                            <a href="#"><i class="ion-social-twitter"></i></a>
-                            <a href="#"><i class="ion-social-instagram-outline"></i></a>
-                            <a href="#"><i class="ion-social-linkedin-outline"></i></a>
-                            <a href="#"><i class="ion-social-googleplus"></i></a>
-                            <a href="#"><i class="ion-social-snapchat"></i></a>
-                            <a href="#"><i class="ion-social-youtube"></i></a>
+                            <a href="<?php echo $ayarcek['ayar_facebook'];?>"><i class="ion-social-facebook"></i></a>
+                            <a href="<?php echo $ayarcek['ayar_twitter'];?>"><i class="ion-social-twitter"></i></a>
+                            <a href="<?php echo $ayarcek['ayar_instagram'];?>"><i class="ion-social-instagram-outline"></i></a>
+                            <a href="<?php echo $ayarcek['ayar_linkedin'];?>"><i class="ion-social-linkedin-outline"></i></a>
+                            <a href="<?php echo $ayarcek['ayar_google'];?>"><i class="ion-social-googleplus"></i></a>
+                            <a href="<?php echo $ayarcek['ayar_snapchat'];?>"><i class="ion-social-snapchat"></i></a>
+                            <a href="<?php echo $ayarcek['ayar_youtube'];?>"><i class="ion-social-youtube"></i></a>
                             <a href="music/index.html"><i class="fa fa-spotify"></i></a>
-                            <!--
-                            <a href="play/game.html"><i class="ion-ios-game-controller-b"></i></a>
-                            -->
                         </div>
                         <hr>
-                        <p class="footer-text">2017 &copy; Sakarya Üniversite Endüstri Mühendisliği Kulübü. <br>Bu sitenin geliştirilmesi Bilişim & Medya Komisyonu tarafından yapılmıştır. Bütün hakları saklıdır. 
-                        <br>Sitenin güncel versiyonu: 0.4.3.083017<br>
-                        <a href="http://localhost:8080/_sauemk/dev/easter01.php">There's nothing here!</a><a href="http://localhost:8080/_sauemk/terms.php">Terms and Conditions</a><a href="http://localhost:8080/_sauemk/policy.php">Cookie Policy</a></p>
+                        <p class="footer-text"><?php echo $ayarcek['ayar_footer'];?>
+                        <a href="dev/easter01.php">There's nothing here!</a><a href="terms.php">Terms and Conditions</a><a href="policy.php">Cookie Policy</a></p>
                     </div>
                 </div>
             </div>
@@ -57,6 +58,7 @@
     <script src="vendor/lightbox/lity.min.js"></script>
     <script src="vendor/tabs/jquery.tabslet.min.js"></script>
     <script src="vendor/masonry.pkgd.min.js"></script>
+    <script src="vendor/ckeditor/ckeditor.js"></script>
     <script src="js/main.min.js"></script>
 </body>
 

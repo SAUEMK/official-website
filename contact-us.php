@@ -9,11 +9,16 @@ include 'header.php';
                     <div class="col-md-6 col-sm-7 col-sm-offset-4 col-md-offset-6">
                         <h2>Bizimle iletişime geçin</h2>
                         <h4>Formu doldurun, en kısa sürede size dönelim.</h4>
-                        <hr>
-                        <form class="contact-form" method="post" action="http://dev.premonday.com/arisn/contact.php">
+                        <?php if ($_GET['send']=='true'){ ?>
+                            <h5>Mesajınız başarıyla gönderildi.</h5>
+                       <?php }else if($_GET['send']=='false'){?>
+                            <h5>Bir hata oluştu. İnternet bağlantınızı kontrol edip tekrar deneyin.</h5>
+                       <?php } ?>
+                        <hr>        <!--class="contact-form"-->
+                        <form  method="POST" action="admin/baglantii/iletisimislem.php">
                             <div class="input-field col-sm-12">
                                 <div class="form-group">
-                                    <input id="form-name" name="name" type="text" placeholder="İsminiz *" required="required"
+                                    <input id="form-name" name="isim" type="text" placeholder="İsminiz *" required="required"
                                         data-error="Bu alanın doldurulması zorunludur.">
                                     <div class="help-block with-errors"></div>
                                 </div>
@@ -27,19 +32,19 @@ include 'header.php';
                             </div>
                             <div class="input-field col-sm-12">
                                 <div class="form-group">
-                                    <input id="form-tel" name="tel" type="tel" placeholder="Telefon numaranız" data-error="Lütfen doğru bir telefon numarası giriniz.">
+                                    <input id="form-tel" name="telno" type="tel" placeholder="Telefon numaranız" data-error="Lütfen doğru bir telefon numarası giriniz.">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
                             <div class="input-field col-sm-12">
                                 <div class="form-group">
-                                    <textarea id="form-textarea" name="Message" id="" cols="30" rows="5" placeholder="Mesajınızı buraya yazabilirsiniz *"
+                                    <textarea id="form-textarea" name="mesaj" id="" cols="30" rows="5" placeholder="Mesajınızı buraya yazabilirsiniz *"
                                         required="required" data-error="Bu alanın doldurulması zorunludur."></textarea>
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
                             <div class="col-sm-12">
-                                <input type="submit" value="GÖNDER">
+                                <input type="submit" name="mesajgonder" value="Gönder">
                                 <div class="messages"></div>
                             </div>
                         </form>
@@ -76,7 +81,6 @@ include 'header.php';
             </div>
         </div>
 
-        <section>
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2 title">
@@ -230,31 +234,6 @@ include 'header.php';
                 </div>
             </div>
         </section>
-
-        <div class="container">
-                <div class="song1_inner clearfix">
-                    <div class="song1 clearfix">
-                        <div class="left clearfix">
-                            <figure><img src="images/song1.jpg" alt=""></figure>
-                            <div class="caption">
-                                <div class="txt1">Radio chanel: ABMode Music</div>
-                                <div class="txt2">Jazz Samba</div>
-                            </div>
-                        </div>
-                        <div class="right">
-                            <div class="audio1">
-                                <audio class="audio" preload="none" style="width: 100%; visibility: hidden;"
-                                       controls="controls">
-                                    <source type="audio/mpeg" src="audio/19377766_jazz-samba-5_by_abmode_preview.mp3"/>
-                                    <source type="audio/mpeg" src="audio/719569_once_by_tsapa_preview.mp3"/>
-                                    <a href="audio/19377766_jazz-samba-5_by_abmode_preview.mp3">audio/song1.mp3</a>
-                                </audio>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
 <?php
 include 'footer.php';
 ?>

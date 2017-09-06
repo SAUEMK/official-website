@@ -1,5 +1,13 @@
 <?php
 include 'header.php';
+    $fotosor=$db->prepare("select * from galeri_foto order by foto_sira");
+    $fotosor->execute();
+
+$id = $_GET['album_id'];
+
+    $albumsor=$db->prepare("SELECT * from galeri where album_id=?");
+$albumsor->execute(array($id));
+$albumcek=$albumsor->fetch(PDO::FETCH_ASSOC);
 ?>
 
 <!-- Header -->
@@ -10,7 +18,7 @@ include 'header.php';
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-6 page-title">
-                                <h1 class="h3">16. Endüstri Mühendisliği Günleri</h1></div>
+                                <h1 class="h3"><?php echo $albumcek['album_adi']; ?></h1></div>
                             <div class="col-xs-6 right breadcrumbs hidden-xs">
                                 <a href="gallery.php"><i class="ion-arrow-return-left"></i>Geri dön</a> 
                             </div>
@@ -19,68 +27,38 @@ include 'header.php';
                 </div>
             </div>
         </header>
-
 <section class="no-pad">
             <div class="container-fluid no-max no-pad">
                 <div class="row">
+  <div class="masonry four-col no-margin">
+                        <div class="grid-sizer"></div>
+                        <?php
+                        while($fotocek=$fotosor->fetch(PDO::FETCH_ASSOC)){
+                            $id = $_GET['album_id'];
+                            if($id == $fotocek['album_id']){
+                                if($fotocek['foto_durum']==1){ ?>
+
+
+
 
                     <!-- Masonry -->
-                    <div class="masonry four-col no-margin">
-                        <div class="grid-sizer"></div>
+                  
                         
                         <div class="grid-item">
-                            <a href="img/gallery/16.emg/03.jpg" data-lity><img src="img/gallery/16.emg/03.jpg" alt="">
+                
+                            <a href="<?php echo $fotocek['foto']; ?>" data-lity><img src="<?php echo $fotocek['foto']; ?>" alt="">
                             </a>
                         </div>
                         <!-- end of item -->
-                        <div class="grid-item">
-                            <a href="img/gallery/16.emg/01.jpg" data-lity><img src="img/gallery/16.emg/01.jpg" alt="">
-                            </a>
-                        </div>
-                        <!-- end of item -->
-                        <div class="grid-item">
-                            <a href="img/gallery/16.emg/02.jpg" data-lity><img src="img/gallery/16.emg/02.jpg" alt="">
-                            </a>
-                        </div>
-                        <!-- end of item -->
-                        <div class="grid-item">
-                            <a href="img/gallery/16.emg/04.jpg" data-lity><img src="img/gallery/16.emg/04.jpg" alt="">
-                            </a>
-                        </div>
-                        <!-- end of item -->
-                        <div class="grid-item">
-                            <a href="img/gallery/16.emg/05.jpg" data-lity><img src="img/gallery/16.emg/05.jpg" alt="">
-                            </a>
-                        </div>
-                        <!-- end of item -->
-                        <div class="grid-item">
-                            <a href="img/gallery/16.emg/01.jpg" data-lity><img src="img/gallery/16.emg/01.jpg" alt="">
-                            </a>
-                        </div>
-                        <!-- end of item -->
-
-                        <div class="grid-item">
-                            <a href="img/gallery/16.emg/03.jpg" data-lity><img src="img/gallery/16.emg/03.jpg" alt="">
-                            </a>
-                        </div>
-                        <!-- end of item -->
-
-                        <div class="grid-item">
-                            <a href="img/gallery/16.emg/03.jpg" data-lity><img src="img/gallery/16.emg/03.jpg" alt="">
-                            </a>
-                        </div>
-                        <!-- end of item -->
-
-                        <div class="grid-item">
-                            <a href="img/gallery/16.emg/04.jpg" data-lity><img src="img/gallery/16.emg/04.jpg" alt="">
-                            </a>
-                        </div>
-                        <!-- end of item -->
-                        
+                        <?php   }
+                             }
+                          }
+                        ?>
                     </div>
                 </div>
             </div>
         </section>
+ 
 
 <?php
 include 'footer.php';

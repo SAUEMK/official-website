@@ -11,7 +11,7 @@ include 'header.php';
                                     <h5>500 Internal Error</h5>
                                     <h1>Demek öyle...</h1>
                                     <h4>Devam mı etmek istiyorsun? Hadi o zaman 'devam et' butonunu bul bakalım.</h4>
-                                    <a href="http://localhost:8080/_sauemk/home-page.php" class="btn"><span>Geri dön</span></a>
+                                    <a href="../index.php" class="btn"><span>Geri dön</span></a>
                                 </div>
                             </div>
                         </div>
@@ -55,7 +55,7 @@ include 'header.php';
                             -->
                         </div>
                         <hr>
-                        <p class="footer-text">2017 &copy; Sakarya Üniversite Endüstri Mühendisliği Kulübü.<a href="http://localhost:8080/_sauemk/dev/easter04.php"><font size="1">Devam et</font></a> <br>Bu sitenin geliştirilmesi Bilişim & Medya Komisyonu tarafından yapılmıştır. Bütün hakları saklıdır. 
+                        <p class="footer-text">2017 &copy; Sakarya Üniversite Endüstri Mühendisliği Kulübü.<a href="easter04.php"><font size="1">Devam et</font></a> <br>Bu sitenin geliştirilmesi Bilişim & Medya Komisyonu tarafından yapılmıştır. Bütün hakları saklıdır. 
                         <br>Sitenin güncel versiyonu: 0.4.3.083017 <br>
                     </div>
                 </div>

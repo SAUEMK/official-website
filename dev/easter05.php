@@ -39,7 +39,7 @@
                                     <h5>Seni uyarmıştık</h5>
                                     <h1>Artık geri dönüş şansın yok!</h1>
                                     <h4>Yıllarca merak edilen bir sorunun cevabını almak üzeresin. Buna hazır mısın?</h4>
-                                    <a href="http://localhost:8080/_sauemk/dev/easter05.php" class="btn"><span>Devam et</span></a>
+                                    <a href="easter05.php" class="btn"><span>Devam et</span></a>
                                 </div>
                             </div>
                         </div>

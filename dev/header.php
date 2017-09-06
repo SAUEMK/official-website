@@ -39,60 +39,7 @@
     <!-- Main Container -->
     <div class="web-in">
 
-        <!-- Search Modal -->
-        <!--
-            <div id="search-modal">
-            <img src="img/exit.svg" class="exit" alt="">
-            <form class="search-form" action="http://dev.premonday.com/arisn/post">
-                <label>Bi' şey mi aramıştınız? Hemen sizlere yardımcı olayım :)</label>
-                <input type="text" placeholder="Arama yapmak istediğiniz kelimeyi giriniz...">
-                <span>Arama yapabilmek için <b class="primary">ENTER</b> tuşuna basınız.</span>
-            </form>
-        </div>
-        -->
-
-        <!-- Start Project Modal -->
-        <div id="modal-bg">
-            <img src="img/exit.svg" class="exit" alt="">
-            <div class="holder">
-                <div class="placer">
-                    <div id="modal" class="center">
-                        <div class="title">
-                            <h5>GİRİŞ YAP</h5>
-                            <span class="promo-heading">Üyelerimize özel içerikler seni bekliyor</span>
-                            <hr>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-8 col-md-offset-2">
-                        <form class="contact-form" method="post" action="http://dev.premonday.com/arisn/contact.php">
-                            <div class="input-field col-sm-12">
-                                <div class="form-group">
-                                    <input id="form-name" name="name" type="text" placeholder="Okul numaranız *" required="required"
-                                        data-error="Bu alanın doldurulması zorunludur.">
-                                    <div class="help-block with-errors"></div>
-                                </div>
-                            </div>
-                            <div class="input-field col-sm-12">
-                                <div class="form-group">
-                                    <input id="form-name" name="name" type="password" placeholder="Şifreniz *" required="required"
-                                        data-error="Bu alanın doldurulması zorunludur.">
-                                    <div class="help-block with-errors"></div>
-                                </div>
-                            </div>
-                            <div class="col-sm-12 center">
-                                <input type="submit" value="Giriş Yap">
-                                <div class="messages"></div>
-                            </div>
-                        </form>
-                    </div>
-                        </div>
-                        <hr>
-                        <a href="http://localhost:8080/_sauemk/register-form.php" class="btn"><span>Şimdi üye ol</span></a>
-                        <a href="http://localhost:8080/_sauemk/contact-us.php" class="btn"><span>Şifremi unuttum</span></a>
-                    </div>
-                </div>
-            </div>
-        </div>
+        
 
         <!-- Navigation -->
         <nav id="light" class="regular">
@@ -107,7 +54,7 @@
                         </div>
                         <div class="logo-holder n_">
                             <div>
-                                <a href="http://localhost:8080/_sauemk/home-page.php">
+                                <a href="../index.php">
                                     <img class="logo" src="img/logos/emk-logo.png" alt="">
                                     <img class="logo alt" src="img/logos/emk-logo.png" alt="">
                                 </a>
@@ -115,17 +62,17 @@
                         </div>
                         <div class="nav-content n_">
                             <ul class="light-dropdown">
-                                <li><a href="http://localhost:8080/_sauemk/home-page.php">ANA SAYFA</a>
+                                <li><a href="../index.php">ANA SAYFA</a>
                                 </li>
-                                <li><a href="http://localhost:8080/_sauemk/events.php">ETKİNLİKLERİMİZ</a>
+                                <li><a href="../events.php">ETKİNLİKLERİMİZ</a>
                                 </li>
-                                <li><a href="http://localhost:8080/_sauemk/blog.php">EMK BÜLTEN</a>
+                                <li><a href="../blog.php">EMK BÜLTEN</a>
                                 </li>
-                                <li><a href="http://localhost:8080/_sauemk/gallery.php">GALERİ</a>
+                                <li><a href="../gallery.php">GALERİ</a>
                                 </li>
-                                <li><a href="http://localhost:8080/_sauemk/about-page.php">HAKKIMIZDA</a>
+                                <li><a href="../about-page.php">HAKKIMIZDA</a>
                                 </li>
-                                <li><a href="http://localhost:8080/_sauemk/contact-us.php">İLETİŞİM</a>
+                                <li><a href="../contact-us.php">İLETİŞİM</a>
                                 </li>
                             </ul>
                         </div>

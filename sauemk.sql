@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Anamakine: 127.0.0.1
--- Üretim Zamanı: 07 Eyl 2017, 00:43:22
+-- Üretim Zamanı: 10 Eyl 2017, 17:48:11
 -- Sunucu sürümü: 10.1.21-MariaDB
 -- PHP Sürümü: 5.6.30
 
@@ -240,7 +240,7 @@ ALTER TABLE `hakkimizdabir`
 -- Tablo için AUTO_INCREMENT değeri `sponsor`
 --
 ALTER TABLE `sponsor`
-  MODIFY `sponsor_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `sponsor_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

@@ -13,13 +13,11 @@ include 'header.php';
 
    <?php
 
-
                                    
-              $konusor=$db->prepare("select * from blogpost order by post_tarih");
-              $konusor->execute();
+    
 
               $sayfada=10;
-              $sorgu=$db->prepare("select * from blogpost");
+              $sorgu=$db->prepare("select * from blogpost where post_onay NOT IN ( 0 )");
               $sorgu->execute();
               $say=$sorgu->rowCount();
               $toplam=ceil($say/$sayfada);
@@ -27,28 +25,25 @@ include 'header.php';
               if($sayfa<1) $sayfa=1;
               if($sayfa>$toplam) $sayfa=$toplam;
               $limit=($sayfa-1)*$sayfada;
-              $konusor=$db->prepare("select * from blogpost order by post_tarih DESC limit $limit,$sayfada");
+              $konusor=$db->prepare("select * from blogpost where post_onay NOT IN ( 0 ) order by post_tarih DESC limit $limit,$sayfada");
               $konusor->execute();
 
 
 
 
 
-               while($konucek=$konusor->fetch(PDO::FETCH_ASSOC)){ 
-               $kat_id = $konucek['kat_id'];
+               while($konucek=$konusor->fetch(PDO::FETCH_ASSOC)){
+                 $kat_id = $konucek['kat_id'];
 
                                        $kategorisor=$db->prepare("select * from kategoriler where kat_id=:id");
-              $kategorisor->execute(array(
-                'id'=>$kat_id
-                ));
+                    $kategorisor->execute(array(
+                      'id'=>$kat_id
+                      ));
                   $detay = $konucek['post_detay'];
                     $uzunluk = strlen($detay);
                     $limit =250;
-                  ?>
-
-
-
-                            <div class="blog-item">
+                   ?>
+                    <div class="blog-item">
                             <div class="thumb1">
                                 <a href="blog-post.php?post_id=<?php echo $konucek['post_id']; ?>">
                                     <img src="<?php echo $konucek['post_foto']; ?>" alt="">
@@ -134,7 +129,7 @@ include 'header.php';
 
                         </div>
 
-<?php      $konusor=$db->prepare("select * from blogpost order by post_hit limit 5");
+<?php      $konusor=$db->prepare("select * from blogpost  where post_onay NOT IN ( 0 ) order by post_hit limit 5");
               $konusor->execute();
 
             ?>
@@ -148,7 +143,7 @@ include 'header.php';
 
 <?php  while($konucek=$konusor->fetch(PDO::FETCH_ASSOC)){ 
              ?><div class="row">
-                                <a href="blog-post.php?post_id=<?php echo $konucek['post_id']; ?>">
+                                <a href="blog-post.php0.9.5.091217rojn?post_id=<?php echo $konucek['post_id']; ?>">
                                     <div class="col-xs-4 image-fw">
                                         <img style="height: 70px;width: 70px;" src="<?php echo $konucek['post_foto']; ?>" alt="">
                                     </div>

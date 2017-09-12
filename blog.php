@@ -133,26 +133,34 @@ include 'header.php';
 
 
                         </div>
+
+<?php      $konusor=$db->prepare("select * from blogpost order by post_hit limit 5");
+              $konusor->execute();
+
+            ?>
+
+
                         <div class="item">
-                            <h3>Güncel yayınlar</h3>
+                            <h3>En çok ziyaret edilenler</h3>
                             <hr>
-                            <div class="row">
+                            
 
 
-
-                                <a href="#">
+<?php  while($konucek=$konusor->fetch(PDO::FETCH_ASSOC)){ 
+             ?><div class="row">
+                                <a href="blog-post.php?post_id=<?php echo $konucek['post_id']; ?>">
                                     <div class="col-xs-4 image-fw">
-                                        <img src="img/projects/130x130-6.jpg" alt="">
+                                        <img style="height: 70px;width: 70px;" src="<?php echo $konucek['post_foto']; ?>" alt="">
                                     </div>
                                     <div class="col-xs-8">
-                                        <h3 class="lp-title">Second Notions are always in...</h3>
+                                        <h3 class="lp-title"><?php echo $konucek['post_baslik']; ?></h3>
                                     </div>
                                 </a>
+</div>
+<?php } ?>
 
 
-
-
-                            </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -167,7 +175,7 @@ include 'header.php';
                         <span class="promo-heading">
                   Haber akışımıza abone olun
                </span>
-                        <form action="http://dev.premonday.com/arisn/post">
+                        <form action="">
                             <input type="text" placeholder="E-posta adresiniz">
                             <input type="submit" value="Abone Ol">
                             <p class="note">*E-postanız reklam amaçlı kullanılmayacaktır</p>

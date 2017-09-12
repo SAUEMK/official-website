@@ -32,7 +32,7 @@ $ayarcek=$ayarsor->fetch(PDO::FETCH_ASSOC);
 	<link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">																								 
     <!-- Favicon -->
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+     <link rel="shortcut icon" href="img/logos/emk-logo-min.png"  />
     <!-- Mobile Metas -->
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <!-- Vendor CSS -->
@@ -84,6 +84,11 @@ $ayarcek=$ayarsor->fetch(PDO::FETCH_ASSOC);
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-12">
+                        <div class="nav-ui n_">
+                            <div>
+                                <div id="menu-icon"><span></span></div>
+                            </div>
+                        </div>
                         <div class="logo-holder n_">
                             <div>
                                 <a href="index.php">

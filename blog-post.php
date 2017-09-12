@@ -52,10 +52,10 @@ $kategoricek=$kategorisor->fetch(PDO::FETCH_ASSOC);
                     </div>
                     <div class="col-sm-6 col-xs-12 right xs-center">
                         <div class="social">
-                            <a href="#"><i class="ion-social-facebook"></i></a>
-                            <a href="#"><i class="ion-social-twitter"></i></a>
-                            <a href="#"><i class="ion-social-linkedin-outline"></i></a>
-                            <a href="#"><i class="ion-social-googleplus"></i></a>
+                            <a href="<?php echo $ayarcek['ayar_facebook'];?>"><i class="fa fa-facebook"></i></a>
+                            <a href="<?php echo $ayarcek['ayar_twitter'];?>"><i class="fa fa-twitter"></i></a>
+                            <a href="<?php echo $ayarcek['ayar_linkedin'];?>"><i class="fa fa-linkedin"></i></a>
+                            <a href="<?php echo $ayarcek['ayar_google'];?>"><i class="fa fa-google"></i></a>
                         </div>
                     </div>
                 </div>
@@ -178,36 +178,36 @@ if($yorumcek['onay']==1){
 <!--class="contact-form"--> <form  action="admin/baglantii/blogislem.php?post_id=<?php echo $_GET['post_id']; ?>" method="POST" >
                             <div class="input-field col-sm-12">
                                 <div class="form-group">
-                                    <input id="form-name" name="isim" type="text" placeholder="İsminiz *" required="required"
+                                    <input class="col-md-12" id="form-name" name="isim" type="text" placeholder="İsminiz *" required="required"
                                         data-error="Bu alanın doldurulması zorunludur.">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
                             <div class="input-field col-sm-6">
                                 <div class="form-group">
-                                    <input id="form-email" name="email" type="email" placeholder="E-posta adresiniz *" required="required"
+                                    <input class="col-md-12" id="form-email" name="email" type="email" placeholder="E-posta adresiniz *" required="required"
                                         data-error="Bu alanın doldurulması zorunludur.">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
-                            <div class="input-field col-sm-6">
+                            <div  class="input-field col-sm-6">
                                 <div class="form-group">
-                                    <input id="form-web" name="website" type="text" placeholder="Web siteniz" data-error="">
+                                    <input class="col-md-12" id="form-web" name="website" type="text" placeholder="Web siteniz" data-error="">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
                             <div class="input-field col-sm-12">
                                 <div class="form-group">
-                                    <textarea id="form-textarea" name="yorum" id="" cols="30" rows="5" placeholder="Mesajınızı buraya yazabilirsiniz *" required="required" data-error="Bu alanın doldurulması zorunludur."></textarea>
+                                    <textarea class="col-md-12" id="form-textarea" name="yorum" id="" cols="50" rows="5" placeholder="Mesajınızı buraya yazabilirsiniz *" required="required" data-error="Bu alanın doldurulması zorunludur."></textarea>
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
                             <div class="col-sm-12 center">
                                 <div class="form-actions">
                                     <div class="row">
-                                        <div class="col-md-offset-3 col-md-4">
-                                            <button  onclick="return confirm('Tamama bastığınızda yorumunuz onaylanmak için listeye alınacaktır. Onaylandığında yorumunuzu ekranda görebilirsiniz. Onaylanmazsa bu size bir mail ile bildirilecektir.')" type="submit" name="yorumyap" class="btn green">Ekle</button>
-                                            
+                                        <div class="col-sm-12">
+                                            <input type="submit" name="yorumyap" value="Gönder">
+                                            <div class="messages"></div>
                                         </div>
                                     </div>
                                 </div>

@@ -18,27 +18,27 @@ include 'header.php';
                         <form  method="POST" action="admin/baglantii/iletisimislem.php">
                             <div class="input-field col-sm-12">
                                 <div class="form-group">
-                                    <input id="form-name" name="isim" type="text" placeholder="İsminiz *" required="required"
+                                    <input class="col-md-10" id="form-name" name="isim" type="text" placeholder="İsminiz *" required="required"
+                                        data-error="Bu alanın doldurulması zorunludur.">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="input-field  col-sm-12">
+                                <div class="form-group">
+                                    <input class="col-md-10" id="form-email" name="email" type="email" placeholder="E-posta adresiniz *" required="required"
                                         data-error="Bu alanın doldurulması zorunludur.">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
                             <div class="input-field col-sm-12">
                                 <div class="form-group">
-                                    <input id="form-email" name="email" type="email" placeholder="E-posta adresiniz *" required="required"
-                                        data-error="Bu alanın doldurulması zorunludur.">
+                                    <input class="col-md-10" id="form-tel" name="telno" type="tel" placeholder="Telefon numaranız" data-error="Lütfen doğru bir telefon numarası giriniz.">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
-                            <div class="input-field col-sm-12">
+                            <div class="input-field  col-sm-12">
                                 <div class="form-group">
-                                    <input id="form-tel" name="telno" type="tel" placeholder="Telefon numaranız" data-error="Lütfen doğru bir telefon numarası giriniz.">
-                                    <div class="help-block with-errors"></div>
-                                </div>
-                            </div>
-                            <div class="input-field col-sm-12">
-                                <div class="form-group">
-                                    <textarea id="form-textarea" name="mesaj" id="" cols="30" rows="5" placeholder="Mesajınızı buraya yazabilirsiniz *"
+                                    <textarea class="col-md-12" id="form-textarea" name="mesaj" id="" cols="55" rows="5" placeholder="Mesajınızı buraya yazabilirsiniz *"
                                         required="required" data-error="Bu alanın doldurulması zorunludur."></textarea>
                                     <div class="help-block with-errors"></div>
                                 </div>
@@ -68,13 +68,12 @@ include 'header.php';
                     </div>
                     <div class="col-sm-6 col-xs-12 right xs-center">
                         <div class="social">
-                            <a href="#"><i class="ion-social-facebook"></i></a>
-                            <a href="#"><i class="ion-social-twitter"></i></a>
-                            <a href="#"><i class="ion-social-instagram-outline"></i></a>
-                            <a href="#"><i class="ion-social-linkedin-outline"></i></a>
-                            <a href="#"><i class="ion-social-googleplus"></i></a>
-                            <a href="#"><i class="ion-social-snapchat"></i></a>
-                            <a href="#"><i class="ion-social-youtube"></i></a>
+                            <a href="<?php echo $ayarcek['ayar_facebook'];?>"><i class="fa fa-facebook"></i></a>
+                            <a href="<?php echo $ayarcek['ayar_twitter'];?>"><i class="fa fa-twitter"></i></a>
+                            <a href="<?php echo $ayarcek['ayar_instagram'];?>"><i class="fa fa-instagram"></i></a>
+                            <a href="<?php echo $ayarcek['ayar_linkedin'];?>"><i class="fa fa-linkedin"></i></a>
+                            <a href="<?php echo $ayarcek['ayar_google'];?>"><i class="fa fa-google"></i></a>
+                            <a href="<?php echo $ayarcek['ayar_youtube'];?>"><i class="fa fa-youtube"></i></a>
                         </div>
                     </div>
                 </div>

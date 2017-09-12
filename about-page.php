@@ -27,9 +27,9 @@ $hakkimizdacek=$hakkimizdasor->fetch(PDO::FETCH_ASSOC);
                     <?php while($yoneticicek=$yoneticisor->fetch(PDO::FETCH_ASSOC)){ 
                         if($yoneticicek['yonetici_durum']==1){?>
 
-                    <div class="col-sm-4 col-md-3 col-xs-6">
+                    <div class="col-sm-4 col-md-3 col-xs-12">
                         <div class="team-profile">
-                            <div class="team-pic" style="background-image:url(<?php echo $yoneticicek['yonetici_foto'];?>)">
+                            <div class="team-pic" style="background-image:url(<?php echo $yoneticicek['yonetici_foto'];?>); height:344px;">
                             </div>
                             <div class="name center">
                                 <p><?php echo $yoneticicek['yonetici_komisyon'];?></p>

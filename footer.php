@@ -26,13 +26,12 @@ while($sponsorcek=$sponsorsor->fetch(PDO::FETCH_ASSOC)){
                     <div class="col-md-6 col-md-offset-3">
                         <img src="<?php echo $ayarcek['ayar_logo'];?>" width="150" alt="">
                         <div class="social">
-                            <a href="<?php echo $ayarcek['ayar_facebook'];?>"><i class="ion-social-facebook"></i></a>
-                            <a href="<?php echo $ayarcek['ayar_twitter'];?>"><i class="ion-social-twitter"></i></a>
-                            <a href="<?php echo $ayarcek['ayar_instagram'];?>"><i class="ion-social-instagram-outline"></i></a>
-                            <a href="<?php echo $ayarcek['ayar_linkedin'];?>"><i class="ion-social-linkedin-outline"></i></a>
-                            <a href="<?php echo $ayarcek['ayar_google'];?>"><i class="ion-social-googleplus"></i></a>
-                            <a href="<?php echo $ayarcek['ayar_snapchat'];?>"><i class="ion-social-snapchat"></i></a>
-                            <a href="<?php echo $ayarcek['ayar_youtube'];?>"><i class="ion-social-youtube"></i></a>
+                            <a href="<?php echo $ayarcek['ayar_facebook'];?>"><i class="fa fa-facebook"></i></a>
+                            <a href="<?php echo $ayarcek['ayar_twitter'];?>"><i class="fa fa-twitter"></i></a>
+                            <a href="<?php echo $ayarcek['ayar_instagram'];?>"><i class="fa fa-instagram"></i></a>
+                            <a href="<?php echo $ayarcek['ayar_linkedin'];?>"><i class="fa fa-linkedin"></i></a>
+                            <a href="<?php echo $ayarcek['ayar_google'];?>"><i class="fa fa-google"></i></a>
+                            <a href="<?php echo $ayarcek['ayar_youtube'];?>"><i class="fa fa-youtube"></i></a>
                             <a href="music/index.html"><i class="fa fa-spotify"></i></a>
                         </div>
                         <hr>

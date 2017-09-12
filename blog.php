@@ -79,7 +79,7 @@ include 'header.php';
                     </div>
 
 
-                         <div class="row blog-controls hidden-xs">
+                         <div class="row blog-controls center">
 
 
 

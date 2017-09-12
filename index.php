@@ -33,17 +33,17 @@ $hakkimizdasor->execute(array(0));
 $hakkimizdacek=$hakkimizdasor->fetch(PDO::FETCH_ASSOC); ?>
                 <div class="row m-space">
                     <div class="col-sm-6 col-md-4">
-                        <i class="ion-ionic"></i>
+                        <i class="fa fa-ravelry" aria-hidden="true"></i>
                         <h3>Kuruluşumuz</h3>
                         <p><?php echo $hakkimizdacek['kurulusumuz'];?></p>
                     </div>
                     <div class="col-sm-6 col-md-4">
-                        <i class="ion-ionic"></i>
+                        <i class="fa fa-wpexplorer" aria-hidden="true"></i>
                         <h3>Amacımız</h3>
                         <p><?php echo $hakkimizdacek['amacimiz'];?></p>
                     </div>
                     <div class="col-sm-6 col-md-4">
-                        <i class="ion-ionic"></i>
+                        <i class="fa fa-trophy" aria-hidden="true"></i>
                         <h3>Ödüllerimiz</h3>
                         <p><?php echo $hakkimizdacek['odullerimiz'];?></p>
                     </div>
@@ -214,12 +214,12 @@ if ($yorumcek['yorum_durum'] ==1) { ?>
             <div class="container-fluid">
 								   
                 <div class="row">
-                    <div class="col-xs-2 social facebook"><a href="<?php echo $ayarcek['ayar_facebook'];?>"><i class="ion-social-facebook"></i></a></div>
-                    <div class="col-xs-2 social twitter"><a href="<?php echo $ayarcek['ayar_twitter'];?>"><i class="ion-social-twitter"></i></a></div>
-                    <div class="col-xs-2 social instagram"><a href="<?php echo $ayarcek['ayar_instagram'];?>"><i class="ion-social-instagram-outline"></i></a></div>
-                    <div class="col-xs-2 social linkedin"><a href="<?php echo $ayarcek['ayar_linkedin'];?>"><i class="ion-social-linkedin-outline"></i></a></div>
-                    <div class="col-xs-2 social googleplus"><a href="<?php echo $ayarcek['ayar_google'];?>"><i class="ion-social-googleplus"></i></a></div>
-                    <div class="col-xs-2 social youtube"><a href="<?php echo $ayarcek['ayar_youtube'];?>"><i class="ion-social-youtube"></i></a></div>
+                    <div class="col-xs-2 social facebook"><a href="<?php echo $ayarcek['ayar_facebook'];?>"><i class="fa fa-facebook"></i></a></div>
+                    <div class="col-xs-2 social twitter"><a href="<?php echo $ayarcek['ayar_twitter'];?>"><i class="fa fa-twitter"></i></a></div>
+                    <div class="col-xs-2 social instagram"><a href="<?php echo $ayarcek['ayar_instagram'];?>"><i class="fa fa-instagram"></i></a></div>
+                    <div class="col-xs-2 social linkedin"><a href="<?php echo $ayarcek['ayar_linkedin'];?>"><i class="fa fa-linkedin"></i></a></div>
+                    <div class="col-xs-2 social googleplus"><a href="<?php echo $ayarcek['ayar_google'];?>"><i class="fa fa-google"></i></a></div>
+                    <div class="col-xs-2 social youtube"><a href="<?php echo $ayarcek['ayar_youtube'];?>"><i class="fa fa-youtube"></i></a></div>
 						 
 													 
 																					  
@@ -245,27 +245,27 @@ if ($yorumcek['yorum_durum'] ==1) { ?>
                         <form  method="POST" action="admin/baglantii/iletisimislem.php">
                             <div class="input-field col-sm-12">
                                 <div class="form-group">
-                                    <input id="form-name" name="isim" type="text" placeholder="İsminiz *" required="required"
+                                    <input class="col-md-10" id="form-name" name="isim" type="text" placeholder="İsminiz *" required="required"
                                         data-error="Bu alanın doldurulması zorunludur.">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
                             <div class="input-field col-sm-12">
                                 <div class="form-group">
-                                    <input id="form-email" name="email" type="email" placeholder="E-posta adresiniz *" required="required"
+                                    <input class="col-md-10" id="form-email" name="email" type="email" placeholder="E-posta adresiniz *" required="required"
                                         data-error="Bu alanın doldurulması zorunludur.">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
                             <div class="input-field col-sm-12">
                                 <div class="form-group">
-                                    <input id="form-tel" name="telno" type="tel" placeholder="Telefon numaranız" data-error="Lütfen doğru bir telefon numarası giriniz.">
+                                    <input class="col-md-10" id="form-tel" name="telno" type="tel" placeholder="Telefon numaranız" data-error="Lütfen doğru bir telefon numarası giriniz.">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
                             <div class="input-field col-sm-12">
                                 <div class="form-group">
-                                    <textarea id="form-textarea" name="mesaj" id="" cols="30" rows="5" placeholder="Mesajınızı buraya yazabilirsiniz *"
+                                    <textarea class="col-md-12" id="form-textarea" name="mesaj" id="" cols="55" rows="5" placeholder="Mesajınızı buraya yazabilirsiniz *"
                                         required="required" data-error="Bu alanın doldurulması zorunludur."></textarea>
                                     <div class="help-block with-errors"></div>
                                 </div>

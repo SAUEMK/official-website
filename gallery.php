@@ -65,9 +65,6 @@ $fotosor->execute();
                             <div class="project-info">
                                <!-- <h5>22.02.2017</h5> -->
                                 <h3><?php echo $albumcek['album_adi']; ?></h3>
-                                <ul class="tags">
-                                    <li><!--DOLDUR AQ--></li>
-                                </ul>
                             </div>
                         </a>
                     </div>

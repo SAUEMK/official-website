@@ -36,10 +36,10 @@ $hakkimizdacek=$hakkimizdasor->fetch(PDO::FETCH_ASSOC);
                                 <h3><?php echo $yoneticicek['yonetici_ad'];?>&nbsp;<?php echo $yoneticicek['yonetici_soyad'];?></h3>
                                 <h9><?php echo $yoneticicek['yonetici_mail'];?></h6>
                                 <div class="social">
-                                    <a href="<?php echo $yoneticicek['yonetici_facebook'];?>"><i class="ion-social-facebook"></i></a>
-                                    <a href="<?php echo $yoneticicek['yonetici_twitter'];?>"><i class="ion-social-twitter"></i></a>
-                                    <a href="<?php echo $yoneticicek['yonetici_instagram'];?>"><i class="ion-social-instagram-outline"></i></a>
-                                    <a href="<?php echo $yoneticicek['yonetici_linkedin'];?>"><i class="ion-social-linkedin-outline"></i></a>
+                                    <a href="<?php echo $yoneticicek['yonetici_facebook'];?>"><i class="fa fa-facebook"></i></a>
+                                    <a href="<?php echo $yoneticicek['yonetici_twitter'];?>"><i class="fa fa-twitter"></i></a>
+                                    <a href="<?php echo $yoneticicek['yonetici_instagram'];?>"><i class="fa fa-instagram"></i></a>
+                                    <a href="<?php echo $yoneticicek['yonetici_linkedin'];?>"><i class="fa fa-linkedin"></i></a>
                                 </div>
                                 <span><?php echo $yoneticicek['yonetici_telefon'];?></span>
                             </div>
@@ -47,8 +47,6 @@ $hakkimizdacek=$hakkimizdasor->fetch(PDO::FETCH_ASSOC);
                     </div>
                     <?php }
                     } ?>
-                    <!-- end of person -->
-                  
                     <!-- end of person -->
                 </div>
             </div>

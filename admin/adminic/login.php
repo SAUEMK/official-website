@@ -15,7 +15,7 @@ session_start();
     <!-- BOOTSTRAP STYLES-->
     <link href="../css/bootstrap.css" rel="stylesheet" />
     <!-- FONTAWESOME STYLES-->
-    <link href="../css/font-awesome.css" rel="stylesheet" />
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">  
     <!-- GOOGLE FONTS-->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
 
@@ -24,7 +24,7 @@ session_start();
     <div class="container">
         <div class="row text-center " style="padding-top:100px;">
             <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
-                <img style="width: 300px; height: 10-50px;" src="../../img/logos/29072299472687125921emk-logo.png" />
+                <img style="width: 300px; height: 100px;" src="../../img/logos/29072299472687125921emk-logo.png" />
             </div>
         </div>
          <div class="row "><br>
@@ -36,11 +36,11 @@ session_start();
                                     <hr />
                                        <br />
                                      <div class="form-group input-group">
-                                            <span class="input-group-addon"><i class="fa fa-tag"  ></i></span>
+                                            <span class="input-group-addon"><i class="fa fa-address-card"  ></i></span>
                                             <input type="text" name="kullanici" required="" class="form-control" placeholder="Kullanıcı adınız..." />
                                         </div>
                                             <div class="form-group input-group">
-                                            <span class="input-group-addon"><i class="fa fa-lock"  ></i></span>
+                                            <span class="input-group-addon"><i class="fa fa-key"  ></i></span>
                                             <input type="password" required="" name="sifre" class="form-control"  placeholder="Şifreniz..." />
                                         </div>
                                         <div class="form-group">
@@ -79,7 +79,7 @@ session_start();
         var parola = document.forms["giris"]["sifre"].value;
     
     if (email == "") {
-      alert("Lütfen kullanıcı adını boş bırakmayınız.");
+      alert("Lütfen email alanını boş bırakmayınız.");
       return false;
     }
     

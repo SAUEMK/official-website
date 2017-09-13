@@ -1,9 +1,8 @@
 <?php
-
 ob_start();
 session_start();
 error_reporting(0);
-include '../baglantii/baglan.php'; 
+include 'baglantii/baglan.php'; 
 
 if(isset($_SESSION['kullanici'])){
 $kullanicisor=$db->prepare("SELECT * from sauemk_yonetim where email=:mail");

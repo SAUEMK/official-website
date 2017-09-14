@@ -89,143 +89,103 @@ include 'header.php';
                 </div>
                 <div class="row m-space">
                     <div class="col-md-6">
-                        <h3>General FAQ</h3>
+                        <h3>Genel SSS</h3>
                         <div class="accordion">
-                            <li>Q. How can I profit from Themeforest?
+                            <li>✓. SAÜEMK NEDİR?
                                 <ul>
-                                    <h3>That's easy, we do it for you!</h3>
-                                    <p>Vivamus facilisisnibh scelerisque laoreet. Lorem
-                                        ipsum dolor sit amet, consectetur adipisicing
-                                        elit. Aspernatur vel distinctio minima ipsa
-                                        nostrum quis sequi.</p>
-                                    <a href="#" class="btn"><span>More information</span></a>
+                                    <p>Sakarya Üniversitesi Endüstri mühendisliği kulübü adı altında 1994 yılında kurulmuş olan birçok farklı bölümden öğrencilerin üye olduğu, Sakarya Üniversitesinin ekolü haline gelmiş aktif bir öğrenci topluluğudur.</p>
                                 </ul>
                             </li>
 
-                            <li>Q. What am I entitled to use on a daily basis?
+                            <li>✓. ENDÜSTRİ MÜHENDİSLİĞİ NEDİR
                                 <ul>
-                                    <h3>Food, drink and other supplies...</h3>
-                                    <p>Vivamus facilisisnibh scelerisque laoreet. Lorem
-                                        ipsum dolor sit amet, consectetur adipisicing
-                                        elit. Aspernatur vel distinctio minima ipsa
-                                        nostrum quis sequi.</p>
+                                    <p>Malzeme, işgücü, makine ve paranın verimli kullanımını sağlamak için yöntem ve teknikler geliştirerek uygulamayı amaçlayan Endüstri Mühendisliği için aşağıdaki tanım öngörülmektedir: "Endüstri Mühendisliği, insan, malzeme ve makineden oluşan bütünleşik sistemlerin tasarım, kuruluş ve geliştirilmesiyle ilgilenir.
+                                    </p>
                                 </ul>
                             </li>
 
-                            <li>Q. I want to partner with another author, how?
+                            <li>✓. SAKARYA ÜNİVERSİTESİ KULÜBÜNE NEREDEN ÜYE OLABİLİRİM?
                                 <ul>
-                                    <h3>You'll need this...</h3>
-                                    <p>Vivamus facilisisnibh scelerisque laoreet. Lorem
-                                        ipsum dolor sit amet, consectetur adipisicing
-                                        elit. Aspernatur vel distinctio minima ipsa
-                                        nostrum quis sequi.</p>
-                                    <a href="#" class="btn"><span>More information</span></a>
+                                    <p>İlk hafta Esentepe kampüsünde bulunan stantlarımızdan daha sonra ise M5 binasında bulunan kulüp odamızdan üye olabilirsiniz. Ayrıca <a href="www.sauemk.com/register-form.php">SAUEMK</a> internet sitesinden üye kayıtlarımız başlamıştır.
+                                    </p>
+                                </ul>
+                            </li>
+
+                              <li>✓. ENDÜSTRİ MÜHENDİSLİĞİ KULÜBÜNE KİMLER ÜYE OLABİLİR?
+                                <ul>
+                                    <p>Sakarya üniversitesi bünyesinde okumakta olan bütün öğrenciler üye olabilir. Endüstri mühendisliği veya mühendislik bölümü öğrencileri diye bir kıstas bulunmamaktadır.</p>
                                 </ul>
                             </li>
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <h3>Service Related</h3>
+                        <h3>Biz Kimiz</h3>
                         <div class="accordion">
-                            <li>Q. Can we supply our own medication?
+                            <li>✓. SAÜEMK ne yapar?
                                 <ul>
-                                    <h3>Food, drink and other supplies...</h3>
-                                    <p>Vivamus facilisisnibh scelerisque laoreet. Lorem
-                                        ipsum dolor sit amet, consectetur adipisicing
-                                        elit. Aspernatur vel distinctio minima ipsa
-                                        nostrum quis sequi.</p>
+                                   <p>Sene içinde düzenlediği salon etkinlikleri, eğitimler, kültürel ve teknik geziler, sosyal faaliyetler ve toplumsal sorumluluk projeleri ile kişisel, sosyal ve mesleki yaşantıya katkı sağlamaktadır.</p>
                                 </ul>
                             </li>
 
-                            <li>Q. When do we get to eat dinner?
+                            <li>✓. Kulüp yönetimi nasıldır ve kimlerden oluşur ?
                                 <ul>
-                                    <h3>You'll need this...</h3>
-                                    <p>Vivamus facilisisnibh scelerisque laoreet. Lorem
-                                        ipsum dolor sit amet, consectetur adipisicing
-                                        elit. Aspernatur vel distinctio minima ipsa
-                                        nostrum quis sequi.</p>
-                                    <a href="#" class="btn"><span>More information</span></a>
+                                   <p>9 ayrı komisyondan oluşan Saüemk, güncel olarak 15 komisyon başkanı, 1 kulüp genel sekreteri, 2 kulüp başkan yardımcısı ve 1 kulüp başkanı ile kulüp düzenini sağlamaktadır.</p>
+                                    <a href="about-ust.php" class="btn"><span>Ayrıca bakınız</span></a>
                                 </ul>
                             </li>
-                            <li>Q. How can I profit from Themeforest?
+                            <li>✓. Komisyon nedir, hangi komisyonlara üye olabilirim?
                                 <ul>
-                                    <h3>That's easy, we do it for you!</h3>
-                                    <p>Vivamus facilisisnibh scelerisque laoreet. Lorem
-                                        ipsum dolor sit amet, consectetur adipisicing
-                                        elit. Aspernatur vel distinctio minima ipsa
-                                        nostrum quis sequi.</p>
-                                    <a href="#" class="btn"><span>More information</span></a>
+                                   <p>Komisyon belirli bir görevi yerine getirmek, bir araştırma veya soruşturmayı yürütmek üzere yetkili kişilerden oluşan grup, komite anlamına gelmektedir. Saüemk’de farklı alanlarda faaliyet göstermesinden dolayı kulüp içi görev dağılımını 9 ayrı komisyon ile yürütmektedir. Öğrenci, ilgi alanı ve isteğe göre istediği komisyona üye olabilir.</p>
                                 </ul>
                             </li>
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <h3>Theme Related</h3>
+                        <h3>Komisyonlar</h3>
                         <div class="accordion">
-                            <li>Q. How can I profit from Themeforest?
+                            <li>✓. Komisyonlar nelerdir?
                                 <ul>
-                                    <h3>That's easy, we do it for you!</h3>
-                                    <p>Vivamus facilisisnibh scelerisque laoreet. Lorem
-                                        ipsum dolor sit amet, consectetur adipisicing
-                                        elit. Aspernatur vel distinctio minima ipsa
-                                        nostrum quis sequi.</p>
-                                    <a href="#" class="btn"><span>More information</span></a>
+                                    <p>Bilişim & Medaya, insan kaynakları, eğitim, proje, teknik gezi, sosyal faaliyet, kurumsal iletişim, finans ve sponsorluk, toplumsal duyarlılık komisyonu olmak üzere 9 adet komisyon bulunmaktadır.</p>
                                 </ul>
                             </li>
 
-                            <li>Q. What am I entitled to use on a daily basis?
+                            <li>✓. İnsan kaynakları komisyonu ne iş yapar?
                                 <ul>
-                                    <h3>Food, drink and other supplies...</h3>
-                                    <p>Vivamus facilisisnibh scelerisque laoreet. Lorem
-                                        ipsum dolor sit amet, consectetur adipisicing
-                                        elit. Aspernatur vel distinctio minima ipsa
-                                        nostrum quis sequi.</p>
+                                   <p>İnsan kaynakları komisyonu kulübün dış yüzüdür. Kulüp içinde iksız bir komisyon göremezsiniz . Komisyonlar arası bağlantı kurar. Kulüp üyelerin sorunlarına birinci elden çözüm bulmaya çalışır. Kısacası insan olan her  yerde insan kaynakları vardır..                        
+                                    </p>
                                 </ul>
                             </li>
 
-                            <li>Q. I want to partner with another author, how?
+                            <li>✓. Sosyal faliyet komisyonu ne iş yapar?
                                 <ul>
-                                    <h3>You'll need this...</h3>
-                                    <p>Vivamus facilisisnibh scelerisque laoreet. Lorem
-                                        ipsum dolor sit amet, consectetur adipisicing
-                                        elit. Aspernatur vel distinctio minima ipsa
-                                        nostrum quis sequi.</p>
-                                    <a href="#" class="btn"><span>More information</span></a>
+                                    <p>
+                                    Etkinliklerden sonra yorgunluğunuzu atmak ve okul dönemindejü stresimizi hafifletmek amacıyla hepbirlikte eğlenceli vakit geçireceğimiz organizasyonlar hazırlamayı amaçlıyoruz
+                                    </p>
+                                </ul>
+                            </li>
+
+                            <li>.......
+                                <ul>
+                                    <p>
+                                   ......
+                                    </p>
                                 </ul>
                             </li>
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <h3>Contact Options</h3>
+                        <h3>Gelenekselleşmiş Etkinliklerimiz</h3>
                         <div class="accordion">
-                            <li>Q. Can we supply our own medication?
+                            <li>✓. EMG NEDİR?
                                 <ul>
-                                    <h3>Food, drink and other supplies...</h3>
-                                    <p>Vivamus facilisisnibh scelerisque laoreet. Lorem
-                                        ipsum dolor sit amet, consectetur adipisicing
-                                        elit. Aspernatur vel distinctio minima ipsa
-                                        nostrum quis sequi.</p>
+                                   <p>EMG, Saüemk’nın gelenekselleşmiş Endüstri Mühendisliği Günleri etkinliğidir. Değişen ve gelişen sektörü daha iyi anlamak için sektörün devlerini ağırlayarak, gündüzleri farklı konuşmacılar, akşamları ise eğlenceli aktivitelerin bulunduğu dopdolu bir programdır.
+                                   </p>
                                 </ul>
                             </li>
 
-                            <li>Q. When do we get to eat dinner?
+                            <li>.....
                                 <ul>
-                                    <h3>You'll need this...</h3>
-                                    <p>Vivamus facilisisnibh scelerisque laoreet. Lorem
-                                        ipsum dolor sit amet, consectetur adipisicing
-                                        elit. Aspernatur vel distinctio minima ipsa
-                                        nostrum quis sequi.</p>
-                                    <a href="#" class="btn"><span>More information</span></a>
-                                </ul>
-                            </li>
-                            <li>Q. How can I profit from Themeforest?
-                                <ul>
-                                    <h3>That's easy, we do it for you!</h3>
-                                    <p>Vivamus facilisisnibh scelerisque laoreet. Lorem
-                                        ipsum dolor sit amet, consectetur adipisicing
-                                        elit. Aspernatur vel distinctio minima ipsa
-                                        nostrum quis sequi.</p>
-                                    <a href="#" class="btn"><span>More information</span></a>
+                                   <p>.......</p>
                                 </ul>
                             </li>
                         </div>

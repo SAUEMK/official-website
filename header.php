@@ -6,6 +6,7 @@ date_default_timezone_set('Europe/Istanbul');
 error_reporting(E_ALL ^ E_NOTICE); 
 
 include 'admin/baglantii/baglan.php';
+include 'admin/function.php';
 
 $ayarsor=$db->prepare("SELECT * from ayar where ayar_id=?");
 $ayarsor->execute(array(0));

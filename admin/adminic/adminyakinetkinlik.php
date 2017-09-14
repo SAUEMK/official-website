@@ -59,6 +59,12 @@ $yakinetkinlikcek=$yakinetkinliksor->fetch(PDO::FETCH_ASSOC);
                    
                                                                 </div>
                                                             </div>
+                                                             <div class="form-group">
+                                                                <label class="col-md-3 control-label"><i class="fa fa-handshake-o" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;<strong>fa fa-handshake-o</strong></label>
+                                                                <div class="col-md-7">
+                                                                    <label style="text-align:left;" class="col-md-12 control-label">Eğer kullanacaksanız yandaki koyu renkli yazıyı 1. açıklama ikonu alanına kopyalayınız.</label>             
+                                                                </div>
+                                                            </div>
                                                               <div class="form-group">
                                                                 <label class="col-md-3 control-label">Etkinilk 1. Açıklama İkonu</label>
                                                                 <div class="col-md-4">
@@ -75,10 +81,16 @@ $yakinetkinlikcek=$yakinetkinliksor->fetch(PDO::FETCH_ASSOC);
                                                             </div>
                                                               <div class="form-group">
                                                                 <label class="col-md-3 control-label">Etkinlik 1. Açıklama Detayı</label>
-                                                                <div class="col-md-4">
+                                                                <div class="col-md-7">
                                                                    <textarea name="detay1" class="ckeditor"><?php echo $yakinetkinlikcek['detay1']?></textarea>                                                    
                                                                 </div>
                                                             </div> 
+                                                            <div class="form-group">
+                                                                <label class="col-md-3 control-label"><i class="fa fa-grav" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;<strong>fa fa-grav</strong></label>
+                                                                <div class="col-md-7">
+                                                                    <label style="text-align:left;" class="col-md-12 control-label">Eğer kullanacaksanız yandaki koyu renkli yazıyı 2. açıklama ikonu alanına kopyalayınız.</label>             
+                                                                </div>
+                                                            </div>
                                                             <div class="form-group">
                                                                 <label class="col-md-3 control-label">Etkinilk 2. Açıklama İkonu</label>
                                                                 <div class="col-md-4">
@@ -95,8 +107,14 @@ $yakinetkinlikcek=$yakinetkinliksor->fetch(PDO::FETCH_ASSOC);
                                                             </div>
                                                             <div class="form-group">
                                                                 <label class="col-md-3 control-label">Etkinlik 2. Açıklama Detayı</label>
-                                                                <div class="col-md-4">
+                                                                <div class="col-md-7">
                                                                     <textarea name="detay2" class="ckeditor"><?php echo $yakinetkinlikcek['detay2']?></textarea> 
+                                                                </div>
+                                                            </div>
+                                                             <div class="form-group">
+                                                                <label class="col-md-3 control-label"><i class="fa fa-heartbeat" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;<strong>fa fa-heartbeat</strong></label>
+                                                                <div class="col-md-7">
+                                                                    <label style="text-align:left;" class="col-md-12 control-label">Eğer kullanacaksanız yandaki koyu renkli yazıyı 3. açıklama ikonu alanına kopyalayınız.</label>             
                                                                 </div>
                                                             </div>
                                                               <div class="form-group">
@@ -115,8 +133,14 @@ $yakinetkinlikcek=$yakinetkinliksor->fetch(PDO::FETCH_ASSOC);
                                                             </div>
                                                               <div class="form-group">
                                                                 <label class="col-md-3 control-label">Etkinlik 3. Açıklama Detayı</label>
-                                                                <div class="col-md-4">
+                                                                <div class="col-md-7">
                                                                     <textarea name="detay3" class="ckeditor"><?php echo $yakinetkinlikcek['detay3']?></textarea> 
+                                                                </div>
+                                                            </div>
+                                                             <div class="form-group">
+                                                                <label class="col-md-3 control-label"><i class="fa fa-globe" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;<strong>fa fa-globe</strong></label>
+                                                                <div class="col-md-7">
+                                                                    <label style="text-align:left;" class="col-md-12 control-label">Eğer kullanacaksanız yandaki koyu renkli yazıyı 4. açıklama ikonu alanına kopyalayınız.</label>             
                                                                 </div>
                                                             </div>
                                                               <div class="form-group">

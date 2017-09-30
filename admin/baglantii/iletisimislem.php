@@ -75,6 +75,22 @@ else{
 }
 }
 
+if ($_GET['mesajsil']=="ok") {
+	$sil=$db->prepare("DELETE from iletisim where id=:id");
+
+	$kontrol=$sil->execute(array(
+		'id'=>$_GET['id']
+		));
+if ($kontrol) {
+	Header("Location:../adminic/adminindex.php?durumsil=ok");
+}
+else{
+	Header("Location:../adminic/adminindex.php?durumsil=no");
+
+}
+
+}
+
 /*						SAÜEMK						*/
 /*						SAÜEMK						*/
 /*						SAÜEMK						*/

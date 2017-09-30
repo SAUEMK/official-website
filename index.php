@@ -64,10 +64,9 @@ $hakkimizdacek=$hakkimizdasor->fetch(PDO::FETCH_ASSOC); ?>
                     <div class="col-md-12">
                         <div class="center-loop-fade">
 
-<?php  $yaklasanetkinliksor=$db->prepare("select * from yaklasanetkinlikler order by sira");
+<?php  $yaklasanetkinliksor=$db->prepare("select * from yaklasanetkinlikler order by tarih");
     $yaklasanetkinliksor->execute();
-                           
-while($yaklasanetkinlikcek=$yaklasanetkinliksor->fetch(PDO::FETCH_ASSOC)){ ?>
+    while($yaklasanetkinlikcek=$yaklasanetkinliksor->fetch(PDO::FETCH_ASSOC)){ ?>
 
 
                             <div>
@@ -96,28 +95,28 @@ $parallaxcek=$parallaxsor->fetch(PDO::FETCH_ASSOC); ?>
             <div class="container-fluid">
                 <div class="row m-space">
                     <div class="col-md-3 col-xs-6">
-                        <i class="ion-ios-analytics-outline"></i>
-                        <h2>1,600</h2>
+                        <i class="fa fa-user-circle" aria-hidden="true"></i>
+                        <h2>11,500</h2>
                         <p>Kayıtlı üye</p>
                     </div>
                     <div class="col-md-3 col-xs-6">
-                        <i class="ion-ios-lightbulb-outline"></i>
-                        <h2>100+</h2>
+                        <i class="fa fa-eercast" aria-hidden="true"></i>
+                        <h2>450</h2>
                         <p>Yapılan etkinlik</p>
                     </div>
                     <div class="col-md-3 col-xs-6">
-                        <i class="ion-ios-camera-outline"></i>
-                        <h2>18,653,122 dk</h2>
+                        <i class="fa fa-clock-o" aria-hidden="true"></i>
+                        <h2>10,000,000+ dk</h2>
                         <p>Eğlendiğimiz süre</p>
                     </div>
                     <div class="col-md-3 col-xs-6">
                         <?php //ayar tablosuna eklenecek 
-                          $sponsorsor=$db->prepare("select * from sponsor order by sponsor_sira");
+                         /* $sponsorsor=$db->prepare("select * from sponsor order by sponsor_sira");
                           $sponsorsor->execute();
-                          $count = $sponsorsor->rowCount();
+                          $count = $sponsorsor->rowCount();*/
                         ?>
-                        <i class="ion-ios-briefcase-outline"></i>
-                        <h2><?php echo $count; ?></h2>
+                        <i class="fa fa-briefcase" aria-hidden="true"></i>
+                        <h2>60</h2>
                         <p>Sponsor</p>
                     </div>
                 </div>
@@ -135,11 +134,13 @@ $parallaxcek=$parallaxsor->fetch(PDO::FETCH_ASSOC); ?>
             </div>
                 <div class="row">
 <?php                      
-              $konusor=$db->prepare("select * from blogpost order by post_hit DESC limit 20");
+              $konusor=$db->prepare("select * from blogpost order by post_hit DESC limit 21");
               $konusor->execute();
 
                while($konucek=$konusor->fetch(PDO::FETCH_ASSOC)){  
-
+                     $baslik = $konucek['post_baslik'];
+                    $uzunluk = strlen($baslik);
+                    $limit =25;
 
                   ?>
 
@@ -149,8 +150,11 @@ $parallaxcek=$parallaxsor->fetch(PDO::FETCH_ASSOC); ?>
                                 <div class="user-pic">
                                     <img style="width: 50px; height:50px;" src="<?php echo $konucek['post_foto']; ?>" alt="">
                                 </div>
-                                <a href="blog-post.php?post_id=<?php echo $konucek['post_id']; ?>">
-                                    <h3><?php echo $konucek['post_baslik']; ?></h3>
+                                <a href="blog-post.php?post_id=<?php echo $konucek['post_id']; ?>" title="<?php echo $konucek['post_baslik']; ?>">
+                                    <h3> <?php  if ($uzunluk > $limit) {
+                                      $baslik = substr($baslik,0,$limit) . " ...";
+                                    } ?>
+                                   <?php echo $baslik ?></h3>
                                     <p><?php echo $konucek['post_tarih']; ?></p>
                                 </a>
                             </div>
@@ -177,7 +181,7 @@ $parallaxcek=$parallaxsor->fetch(PDO::FETCH_ASSOC); ?>
  ?>
                         
                          <section id="c_testimonials" class="center parallax-container dark" data-overlay="8">
-        <div class="parallax"><img src="img/testimonials/01.jpg" alt=""></div>
+        <div class="parallax"><img src="<?php echo $parallaxcek['parallax_iki'];?>" alt=""></div>
         <div class="container">
             <div class="row">
                 <div class="col-md-12">

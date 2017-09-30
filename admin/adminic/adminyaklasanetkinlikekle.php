@@ -61,12 +61,24 @@ include 'adminheader.php';
                       <input type="text" name="kayitform" class="form-control" placeholder="Enter text">
                     </div>
                 </div>
+               
                 <div class="form-group">
                     <label class="col-md-3 control-label">Etkinlik Kayıt Formu Onay</label>
                     <div class="col-md-4">
                         <select name="formonay" class="bs-select form-control">
                             <option value="0">Formu Onaylama</option>
                             <option value="1">Formu Onayla</option>
+                        </select>
+                    </div>
+                </div>
+                 <div class="form-group">
+                    <label class="col-md-3 control-label">Etkinlik Düzenleyen Komisyon</label>
+                    <div class="col-md-4">
+                        <select name="tur" class="bs-select form-control">
+                            <option value="0">Proje Komisyonu</option>
+                            <option value="1">Eğitim Komisyonu</option>
+                            <option value="2">Sosyal Faaliyet Komisyonu</option>
+                            <option value="3">Teknik Gezi Komisyonu</option>
                         </select>
                     </div>
                 </div>

@@ -89,7 +89,7 @@ $yaklasanetkinlikcek=$yaklasanetkinliksor->fetch(PDO::FETCH_ASSOC);
                 <div class="form-group">
                     <label class="col-md-3 control-label">Etkinlik Durumu</label>
                     <div class="col-md-4">
-                    <?php if ($yaklasanetkinlikcek['durum']==1) { ?>
+                    <?php if ($yaklasanetkinlikcek['onay']==1) { ?>
                         <select name="onay" class="bs-select form-control">
                             <option value="1">Etkinlik Onayla</option>
                             <option value="0">Etkinlik Onaylama</option>
@@ -100,6 +100,41 @@ $yaklasanetkinlikcek=$yaklasanetkinliksor->fetch(PDO::FETCH_ASSOC);
                             <option value="1">Etkinlik Onayla</option>
                         </select>
                        <?php } ?>
+                        
+                    </div>
+                </div>  
+                 <div class="form-group">
+                    <label class="col-md-3 control-label">Etkinlik Düzenleyen Komisyon</label>
+                    <div class="col-md-4">
+                    <?php if ($yaklasanetkinlikcek['tur']==0) { ?>
+                        <select name="tur" class="bs-select form-control">
+                            <option value="0">Proje Komisyonu</option>
+                            <option value="1">Eğitim Komisyonu</option>
+                            <option value="2">Sosyal Faaliyet Komisyonu</option>
+                            <option value="3">Teknik Gezi Komisyonu</option>
+                        </select>
+                    <?php }else if($yaklasanetkinlikcek['tur']==1){ ?>
+                        <select name="tur" class="bs-select form-control">
+                            <option value="1">Eğitim Komisyonu</option>
+                            <option value="2">Sosyal Faaliyet Komisyonu</option>
+                            <option value="3">Teknik Gezi Komisyonu</option>
+                            <option value="0">Proje Komisyonu</option>
+                        </select>
+                       <?php } else if($yaklasanetkinlikcek['tur']==2){ ?>
+                        <select name="tur" class="bs-select form-control">
+                            <option value="2">Sosyal Faaliyet Komisyonu</option>
+                            <option value="3">Teknik Gezi Komisyonu</option>
+                            <option value="0">Proje Komisyonu</option>
+                            <option value="1">Eğitim Komisyonu</option>
+                        </select>
+                       <?php }else if($yaklasanetkinlikcek['tur']==3){ ?>
+                        <select name="tur" class="bs-select form-control">
+                            <option value="3">Teknik Gezi Komisyonu</option>
+                            <option value="0">Proje Komisyonu</option>
+                            <option value="1">Eğitim Komisyonu</option>
+                            <option value="2">Sosyal Faaliyet Komisyonu</option>
+                        </select>
+                       <?php }?>
                         
                     </div>
                 </div>  

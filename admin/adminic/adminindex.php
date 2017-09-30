@@ -62,6 +62,8 @@ $mesajsor->execute();
                                                     </div>
                                                     <div class="col2">
                                                         <div class="date"><?php echo $mesajcek['tarih']; ?></div>
+                                                            <button style="background-color: #f44336; "><a href="../baglantii/iletisimislem.php?mesajsil=ok&id=<?php echo $mesajcek['id']; ?>">Sil</a></button>
+                                                    </div>
                                                     </div>
                                                 </li>
 
@@ -71,21 +73,11 @@ $mesajsor->execute();
                                     </div>
                                 </div>
                             </div>
-                            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-                         <h1 class="page-title"> Sakarya Üniversitesi
-                            <br><small>Endüstri Mühendsiliği Kulübü & 2017</small>
-                        </h1>
-                        <!-- END PAGE TITLE-->
-                        <!-- END PAGE HEADER-->
-                        <!-- BEGIN DASHBOARD STATS 1-->
-                 
-                        <!-- END DASHBOARD STATS 1-->
-                      
+                            <div class="col-md-3 col-sm-3">
+                                
+                        </div>
                     </div>
                 </div>
-                <!-- END QUICK SIDEBAR -->
-
-            <!-- END CONTAINER -->
          <?php 
 
          include 'adminfooter.php'

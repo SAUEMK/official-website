@@ -1,7 +1,9 @@
 <?php 
-
 ob_start();
-session_start();
+   if(!isset($_SESSION)) 
+    { 
+        session_start(); 
+    } 
 date_default_timezone_set('Europe/Istanbul');
 error_reporting(E_ALL ^ E_NOTICE); 
 
@@ -44,6 +46,9 @@ $ayarcek=$ayarsor->fetch(PDO::FETCH_ASSOC);
     <link rel="stylesheet" href="vendor/slideshow/slideshow.css">
     <link rel="stylesheet" href="vendor/lightbox/lity.min.css">
 
+    <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+
 
 
 
@@ -74,7 +79,7 @@ $ayarcek=$ayarsor->fetch(PDO::FETCH_ASSOC);
 <body>
     <!-- Scroll up -->
     <div class="scrollup">
-        <i class="ion-ios-arrow-up"></i>
+     <i class="fa fa-angle-up" aria-hidden="true"></i>
     </div>
 
     <!-- Main Container -->
@@ -87,6 +92,7 @@ $ayarcek=$ayarsor->fetch(PDO::FETCH_ASSOC);
                     <div class="col-md-12">
                         <div class="nav-ui n_">
                             <div>
+                                <a href="register-form.php"><span>KAYIT OL</span></a>
                                 <div id="menu-icon"><span></span></div>
                             </div>
                         </div>

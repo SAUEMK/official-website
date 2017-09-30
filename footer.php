@@ -4,17 +4,17 @@
                 <h5>Sponsorlarımız</h5>
                 <div class="row">
                     <div class="col-md-12 slide">
-<?php
-    $sponsorsor=$db->prepare("select * from sponsor order by sponsor_sira");
-    $sponsorsor->execute();
+                    <?php
+                        $sponsorsor=$db->prepare("select * from sponsor order by sponsor_sira");
+                        $sponsorsor->execute();
 
-while($sponsorcek=$sponsorsor->fetch(PDO::FETCH_ASSOC)){ 
-    if ($sponsorcek['sponsor_durum']==1) { ?>
-              
-         <div><img src=" <?php echo $sponsorcek['sponsor_logo'] ?>" alt=" <?php echo $sponsorcek['sponsor_sira'] ?>"></div>
+                    while($sponsorcek=$sponsorsor->fetch(PDO::FETCH_ASSOC)){ 
+                        if ($sponsorcek['sponsor_durum']==1) { ?>
+                                  
+                             <div><img src=" <?php echo $sponsorcek['sponsor_logo'] ?>" alt=" <?php echo $sponsorcek['sponsor_sira'] ?>"></div>
 
-  <?php } ?>
-<?php } ?>
+                      <?php } ?>
+                    <?php } ?>
                     </div>
                 </div>
             </div>
@@ -36,7 +36,7 @@ while($sponsorcek=$sponsorsor->fetch(PDO::FETCH_ASSOC)){
                         </div>
                         <hr>
                         <p class="footer-text"><?php echo $ayarcek['ayar_footer'];?>
-                        <a href="dev/easter01.php">There's nothing here!</a><a href="terms.php">Terms and Conditions</a><a href="policy.php">Cookie Policy</a></p>
+                        <a href="dev/easter01.php"><!--There's nothing here!</a>--><a href="terms.php">Terms and Conditions</a><a href="policy.php">Cookie Policy</a></p>
                     </div>
                 </div>
             </div>
@@ -59,6 +59,9 @@ while($sponsorcek=$sponsorsor->fetch(PDO::FETCH_ASSOC)){
     <script src="vendor/masonry.pkgd.min.js"></script>
     <script src="vendor/ckeditor/ckeditor.js"></script>
     <script src="js/main.min.js"></script>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/main.js"></script> <!-- Resource jQuery -->
 </body>
 
 </html>

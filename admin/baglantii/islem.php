@@ -780,7 +780,7 @@ detay=:detay,
 kayitform=:kayitform,
 formonay=:formonay,
 onay=:onay,
-sira=:sira,
+tur=:tur,
 afis=:afis");
 
 $insert=$kaydet->execute(array(
@@ -790,7 +790,7 @@ $insert=$kaydet->execute(array(
 'kayitform'=>$_POST['kayitform'],
 'formonay'=>$_POST['formonay'],
 'onay'=>$_POST['onay'],
-'sira'=>$_POST['sira'],
+'tur'=>$_POST['tur'],
 'afis'=>$refimgyol
 ));
 
@@ -2130,7 +2130,7 @@ else{
 	Header("Location:../adminic/adminanasayfayorum.php?durumekle=no");
 }
 }else{
-	$at='../../img/counters/homer.jpeg';
+	$at='../../img/counters/homer.png';
 $refimgyol=substr($at,6);
 
 $kaydet=$db->prepare("INSERT INTO anasayfa_yorum SET 

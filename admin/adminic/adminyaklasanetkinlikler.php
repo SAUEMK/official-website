@@ -81,7 +81,7 @@ include 'adminheader.php';
                                     <table class="table table-striped table-bordered table-hover table-checkable order-column" id="sample_1">
                                             <thead>
                                                 <tr>
-                                                    <th> Etkinlik Sıra </th>                                                
+                                                    <th> Etkinlik Düzenleyen Komisyon </th>                                                
                                                     <th> Tarih </th>
                                                     <th> Etkinlik Afişi </th>     
                                                     <th> Etkinlik Adı </th>      
@@ -102,7 +102,7 @@ include 'adminheader.php';
 
                                         while($yaklasanetkinlikcek=$yaklasanetkinliksor->fetch(PDO::FETCH_ASSOC)){  ?>
                                                 <tr class="odd gradeX">
-                                                    <td><?php echo $yaklasanetkinlikcek['sira']; ?></td>
+                                                    <td><?php echo $yaklasanetkinlikcek['tur']; ?></td>
                                                     <td><?php echo $yaklasanetkinlikcek['tarih']; ?></td>
                                                     <td><img style="width: 100px; height: 300px;" src="../../<?php echo $yaklasanetkinlikcek['afis'] ?>"></td> 
                                                     <td><?php echo $yaklasanetkinlikcek['adi'] ?></td>

@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 include 'header.php';
 
  $post_id=$_GET['post_id'];
@@ -42,22 +42,29 @@ $kategoricek=$kategorisor->fetch(PDO::FETCH_ASSOC);
             <div class="container border">
                <?php echo $konucek['post_detay']; ?>
             </div>
-        </section>
+</section>
 
         <div class="area blog-social">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-6 hidden-xs">
+                    <div class="col-md-8 col-sm-8 col-xs-12 xs-center">
                         <h3>Bu gönderiyi paylaşmak ister misiniz?</h3>
                     </div>
-                    <div class="col-sm-6 col-xs-12 right xs-center">
-                        <div class="social">
-                            <a href="<?php echo $ayarcek['ayar_facebook'];?>"><i class="fa fa-facebook"></i></a>
-                            <a href="<?php echo $ayarcek['ayar_twitter'];?>"><i class="fa fa-twitter"></i></a>
-                            <a href="<?php echo $ayarcek['ayar_linkedin'];?>"><i class="fa fa-linkedin"></i></a>
-                            <a href="<?php echo $ayarcek['ayar_google'];?>"><i class="fa fa-google"></i></a>
-                        </div>
+              <!-- AddToAny BEGIN -->
+                    <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+                            <a class="a2a_button_facebook"></a>
+                            <a class="a2a_button_twitter"></a>
+                            <a class="a2a_button_google_plus"></a>
+                            <a class="a2a_button_linkedin"></a>
+                            <a class="a2a_button_email"></a>
+                            <a class="a2a_button_whatsapp"></a>
+                            <a class="a2a_button_copy_link"></a>
+                            <a class="a2a_button_sms"></a>
                     </div>
+                    <script async src="https://static.addtoany.com/menu/page.js"></script>
+<!-- AddToAny END -->
+
+                
                 </div>
             </div>
         </div>

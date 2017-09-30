@@ -43,7 +43,7 @@ include 'header.php';
                     $uzunluk = strlen($detay);
                     $limit =250;
                    ?>
-                    <div class="blog-item">
+                   		 <div class="blog-item">
                             <div class="thumb1">
                                 <a href="blog-post.php?post_id=<?php echo $konucek['post_id']; ?>">
                                     <img src="<?php echo $konucek['post_foto']; ?>" alt="">
@@ -57,10 +57,12 @@ include 'header.php';
                                     <p><?php echo $konucek['post_tarih']; ?></p>
                                     <h3><?php echo $konucek['post_baslik']; ?></h3>
                                 </a>
+                                <div class="hidden-xs">
                                   <?php  if ($uzunluk > $limit) {
                                       $detay = substr($detay,0,$limit) . " ...";
                                     } ?>
                                    <?php echo $detay ?>
+                                 </div>
                                 <hr>
                                 <h5 class="author"><?php echo $konucek['yazan_ad']; ?></h5>
                             </div>
@@ -143,7 +145,7 @@ include 'header.php';
 
 <?php  while($konucek=$konusor->fetch(PDO::FETCH_ASSOC)){ 
              ?><div class="row">
-                                <a href="blog-post.php0.9.5.091217rojn?post_id=<?php echo $konucek['post_id']; ?>">
+                                <a href="blog-post.php?post_id=<?php echo $konucek['post_id']; ?>">
                                     <div class="col-xs-4 image-fw">
                                         <img style="height: 70px;width: 70px;" src="<?php echo $konucek['post_foto']; ?>" alt="">
                                     </div>

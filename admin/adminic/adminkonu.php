@@ -96,7 +96,7 @@ include 'adminheader.php';
 
 
                                    
-              $konusor=$db->prepare("select * from blogpost order by post_tarih");
+              $konusor=$db->prepare("select * from blogpost order by post_tarih DESC");
               $konusor->execute();
 
                                         while($konucek=$konusor->fetch(PDO::FETCH_ASSOC)){  ?>

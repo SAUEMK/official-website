@@ -111,7 +111,7 @@ if ($_FILES['post_foto']["size"]>0) {
 	$refimgyol=substr($uploads_dir,6)."/".$benzersizad.$name;
 	@move_uploaded_file($tmp_name, "$uploads_dir/$benzersizad$name");
 
-$tarih = date('d.m.Y');
+$tarih = date('Y-m-d');
 
 $kaydet=$db->prepare("INSERT INTO blogpost SET 
 kat_id=:id,
